@@ -1,0 +1,31 @@
+.size( @width, @height ) {
+    width:  @width;
+    height: @height;
+}
+
+// Hide + show
+.hide { display: none; }
+.show { display: block; }
+
+// Positioning
+.centered { margin-left: auto; margin-right: auto; }
+
+// Quick floats
+.pull-right { float: right; }
+.pull-left  { float: left;  }
+
+// Set layout model to box-sizing
+.border-box {
+    box-sizing: border-box;
+}
+
+* {
+    .border-box;
+}
+
+// Clear floated elements
+.clearfix() {
+    &:before, &:after { display: table; content: ""; }
+    &:after { clear: both; }
+}
+.clear { .clearfix(); }

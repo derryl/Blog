@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /dev
+Disallow: /_derrylcarter
+Disallow: /css
+Disallow: /js
+Disallow: /files
+Disallow: /sandbox
+Disallow: /__errors

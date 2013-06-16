@@ -1,0 +1,20 @@
+.book { 
+	display: block;
+	float: left;
+	background: #aaa;
+	height: 120px;
+	box-shadow: inset 0 0 1px #333;
+}
+
+.book + .book { margin-top: 10px; }
+
+.book.full { width: 100%; }
+	.book.full+.book { margin-left: 0; }
+	
+.book.half { width: 49.4%; }
+	.book+.book { margin-left: 10px; }
+	
+.book.quarter { width: 172px; }
+	.book.quarter+.book.quarter { margin-left: 10px; }
+	.book.half+.book.quarter+.book.quarter+.book.quarter { margin-left: 0; }
+	.book.quarter+.book.quarter+.book.half+.book.quarter { margin-left: 0; }

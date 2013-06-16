@@ -1,0 +1,105 @@
+.r {border: 1px solid red;} .g {border: 1px solid green;} .b {border: 1px solid blue;}
+
+body { background: #012e83; }
+
+
+/**************************
+/*	LAYOUT- Global
+*/
+
+#padding { padding: 0 20px; }
+#wrapper { margin: 0 auto -90px; min-height: 100%; height: auto !important; height: 100%; min-width: 960px; max-width: 1160px; }
+
+
+/**************************
+/*	LAYOUT- Header
+*/
+
+#header { position: relative; width: 100%; height: 100px; }
+
+#header h1 a {
+	display: inline-block;
+	height: 37px; width: 158px;
+	text-indent: -99999px;
+	background: url(../img/logo.png) 0 0;
+}
+
+
+/* Main Navigation */
+#main_nav { }
+	#main_nav li { margin-right: 24px; }
+	#main_nav li a { color: #fff; font-size: 1.5em; font-weight: bold; text-shadow: 1px 1px 0 rgba(0,0,0,0.3); }
+
+/* User Navigation */
+#user_nav { position: absolute; top: 0; right: 0; }
+	#user_nav li { margin-left: 18px; }
+	#user_nav li a { color: #fff; font-size: 0.8em; line-height: 1.4em; font-weight: bold; }
+	#user_nav li.user-button { 
+		-webkit-border-image: url("../img/border-img-small-btn.png") 5 5 5 5 stretch;
+		border: 5px solid;
+		margin-top: -4px;
+		padding: 0 2px 1px 4px;
+	}
+		#user_nav li.user-button > a { float: left; color: #333; text-shadow: 0 1px 0 #f3f3f3; }
+		#user_nav li.user-button span a { 
+			float: left; display: block; width: 19px; text-align: center; margin-left: 7px;
+			background: url(../img/inbox-count.png);
+			text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+		}
+		
+/* Main search bar */
+#search { position: absolute; bottom: 15px; right: 0; }
+#search_input { border: 0; outline: 0; font-size: 1em; padding: 8px 10px; width: 350px; }
+
+
+
+/****************************
+/*	LAYOUT- Content
+*/
+
+#content_wrapper { position: relative; padding-bottom: 90px; }
+	.content, .sidebar { padding: 15px; -moz-border-radius: 5px; border-radius: 5px; -moz-box-shadow: 1px 1px 5px rgba(0,0,0,0.3); -webkit-box-shadow: 1px 1px 5px rgba(0,0,0,0.3); box-shadow: 1px 1px 5px rgba(0,0,0,0.3);}
+	#sb1 { position: absolute; top: 0; left: 0; width: 190px; background: #eee; }
+	#sb2 { position: absolute; top: 0; right: 0; width: 120px; background: #eee; }
+	#content { margin-left: 235px; margin-right: 165px; padding: 15px; background: #fff; }
+
+
+#sb1 .large li a { font-size: 1.2em; }
+#sb1 li a { color: #333; text-decoration: none; }
+#sb1 ul + ul { border-top: 1px solid #aaa; padding-top: 5px; margin-top: 5px; }
+
+
+
+/****************************
+/*	FOOTER
+*/
+
+#footer { 	height: 90px; text-align: center; font-size: 13px; margin-top: 10px;clear: both; }
+	#footer ul { list-style: none; margin: 5px 0;}
+	#footer li { display: inline; margin-right: 10px; }
+	#footer li a {
+		color: #fff;
+		text-decoration: none;
+		text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+		font-family: Helvetica, Arial, Verdana, sans-serif;
+	}
+	#footer a:hover { text-shadow: 0 0 3px #fff; }
+	#footer span { color: #fff; opacity: .6; text-shadow: 0 -1px 1px rgba(0,0,0,0.5); }
+
+
+
+
+/*****************************
+/*	COMMON ELEMENTS	
+*/
+
+/* Common list styling */
+
+ul.menu { list-style: none; }
+	ul.menu li { float: left; }
+	ul.menu li a { display: inline-block; text-decoration: none; }
+	ul.menu li:last-child a { margin-right: none; }
+	
+ul.list { list-style: none; }
+	ul.menu li a { display: block; text-decoration: none; }
+	ul.menu li:last-child a { margin-bottom: none; }

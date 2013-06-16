@@ -1,0 +1,48 @@
+* { 
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, Verdana, sans-serif;
+    font-size: 62.5%;
+    line-height: 1.4em;
+    padding: 4em 0 0;
+    text-align: center;
+    -webkit-transition: font 0.2s linear;
+    -moz-transition: font 0.2s linear;
+    -o-transition: font 0.2s linear;
+    transition: font 0.2s linear;
+}
+
+h1,h2,h3,h4 {
+    margin: 0.8em 0;
+    font-weight: 900;
+}
+
+h1 { font-size: 9.0em; color: #ddd; }
+h2 { font-size: 4.4em; color: #aaa; font-weight: 100; }
+h3 { font-size: 1.8em; }
+p  { 
+    font-size: 1.8em; 
+    font-weight: 300;
+    margin-bottom: 0.5em;
+    line-height: 1.5em;
+}
+p + p {
+    margin-top: 1em;
+}
+
+a {
+    text-decoration: underline;
+    font-weight: 500;
+    color: #ff7200;
+}
+
+@media all and (max-width: 400px) {
+    body { font-size: 50%; }
+}
+
+@media all and (min-width: 760px) {
+    body { font-size: 80%; }
+}

@@ -1,0 +1,64 @@
+.r {border: 1px solid red;} .g {border: 1px solid green;} .b {border: 1px solid blue;}
+
+
+body { background: url(../img/333-noise.jpg) repeat; }
+
+#wrapper { margin: 0 auto; width: 800px; }
+
+/* CONTAINERS */
+
+.box {
+	background: #eee;
+	border-top: 1px solid #fdfdfd; border-left: 1px solid #fafafa; border-right: 1px solid #fff;
+	.contain; .padded; .topmargin; &.round { .rounded(9px); }
+}
+
+
+/* BUTTONS */
+
+.button {
+	color: #fff;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
+	background: #fff url(../img/button.png) top repeat-x;
+	display: inline-block; position: relative; cursor: pointer; vertical-align: bottom;
+	font-size: 1em; text-decoration: none; font-weight: 500; line-height: 1; text-shadow: 0 -1px 0 rgba(0,0,0,0.35);
+	border: 1px solid rgba(0,0,0,.25); border-bottom: 1px solid rgba(0,0,0,.35);
+	span { 	display: block; padding: 7px 13px 8px; line-height: 1; border-top: 1px solid rgba(255,255,255,.35); border-left: 1px solid rgba(255,255,255,.25); 
+			background: url(../img/reflect.png) left -35px repeat-x; }
+	&.big span 	 { font-size: 1.2em; padding: 8px 15px 13px; background-position: left -31px; }
+	&.small span { font-size: 0.9em; padding: 5px 12px 7px; background-position: left -38px; }
+	&.white		{ .bg(#fff); }
+	&.black 	{ .bg(#091018); }
+	&.grey 		{ .bg(#666); }
+	&.silver 	{ .bg(#aaa); }
+	&.blue 		{ .bg(#489be8); }
+	&.green 	{ .bg(#45a150); }
+	&.red 		{ .bg(#e33100); }
+	&.magenta	{ .bg(#a9014b); }
+	&.orange 	{ .bg(#ff5c00); }
+	&.yellow 	{ .bg(#ffb515); }
+	/* Other States */
+	&:hover { background-position: -60px center; }
+	&:active { background-position: bottom center; text-shadow: none; span { background: none; }}
+	&.round	{ .rounded(5px); span { .rounded(4px); } }
+	}
+	.button+.button { margin-left: 5px; }
+
+
+/* GLOBAL PROPERTIES */
+
+.debug (@color: red) { border: 1px solid @color; }
+
+@global-padding: 20px;
+@global-topmargin: 24px;
+
+.contain 
+	{ position: relative; overflow: auto; }
+.padded (@amount: @global-padding) 
+	{ padding: @amount; }
+.topmargin (@amount: @global-topmargin) 
+	{ margin-top: @amount; }
+.rounded (@amount: 5px) 
+	{ -webkit-border-radius: @amount; -moz-border-radius: @amount; border-radius: @amount; }
+.bg (@color)
+	{ background-color: @color; }

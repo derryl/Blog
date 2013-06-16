@@ -1,0 +1,95 @@
+.book { 
+	display: block;
+	position: relative;
+	float: left;
+	background: #333 url(../img/book-bg.jpg) 100% 100%;
+	box-shadow: inset 0 1px 5px rgba(0,0,0,0.45);
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	z-index: 1;
+	}
+	.book { -webkit-transition: all .15s ease-in-out; }
+	.book:hover { 
+		cursor: pointer; 
+		-webkit-transform: scale(1.1);
+		z-index: 10;
+		box-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+		}
+	.book+.book { margin-left: 5px; margin-top: 5px; }
+	.book * { cursor: pointer; }
+
+/* Result Blocks (three of them) */
+.block { float: left; width: 240px; }
+	.block .book { margin-left: 5px; }
+	.block .book:first-child.medium + .book.medium { margin-top: 0; }
+
+/* Book Result Sizes */
+	.book.large { width: 233px; height: 189px; }
+	.book.medium { width: 114px; height: 92px; }
+	.book.small { width: 60px; height: 50px; }
+	.book.tiny { width: 35px; height: 22px; }
+
+
+/* Book Metadata */
+	.book .book_meta {
+		position: absolute; bottom: 0;
+		text-align: left;
+		width: 95%;
+		z-index: 5;
+		background: #ddd;
+		background: rgba(255,255,255,0.8);
+		color: #333;
+		padding: 7px 6% 10px;
+		}
+	.book_meta h5, .book_meta h6 { margin: 0; font-weight: normal; }
+	
+	/* Book Covers */
+		.book > img {
+			margin: 10px auto 0;
+			width: 70%; height: auto;
+			z-index: 1;
+			box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+			}
+	
+	/* Size-specific Metadata Rules */
+		.book.large h5 { font-size: 14px; margin-bottom: 2px; }
+		
+		.book.medium h5 { font-size: 11px; }
+		.book.medium h6 { font-size: 9px; }
+		
+		.book.small .book_meta { padding: 3px; }
+		.book.small h5 { font-size: 9px; }
+		.book.small h6 { display: none; }
+		
+		.book.tiny .book_meta { display: none; }
+		.book.tiny img { margin-top: 0; }
+	
+	
+	/* Book Covers */
+	.book > img {
+		margin: 5px auto 0;
+		width: 70%; height: auto;
+		z-index: 1;
+		box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+		}
+		
+/* Border on rollover */
+/*
+.book .border { display: none; }
+	.book:hover .border {
+		display: block;
+		position: absolute;
+		top: 0; left: 0;
+		border: 5px solid #333;
+		border: 5px solid rgba(25,25,25,0.9);
+		z-index: 6;
+	}
+	.book.large .border { width: 223px; height: 179px; }
+	.book.medium .border { width: 104px; height: 82px; }
+	.book.small .border { width: 50px; height: 40px; }
+	.book.tiny .border { width: 25px; height: 12px; }
+	
+	
+	.book:after { content:"<h1>TEst</h1>"; }
+*/

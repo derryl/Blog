@@ -1,0 +1,9 @@
+/* VARIABLES */
+body {
+  background-image: linear-gradient(bottom, #2d3038 29%, #373f47 77%);
+  background-image: -o-linear-gradient(bottom, #2d3038 29%, #373f47 77%);
+  background-image: -moz-linear-gradient(bottom, #2d3038 29%, #373f47 77%);
+  background-image: -webkit-linear-gradient(bottom, #2d3038 29%, #373f47 77%);
+  background-image: -ms-linear-gradient(bottom, #2d3038 29%, #373f47 77%);
+  -webkit-background-size: 100% 100%;
+}

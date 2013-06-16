@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	* { margin: 0; padding: 0 }
+	#target { height: 400px; width: 400px; overflow: hidden }
+	</style>
+</head>
+<body>
+
+	<div id="target"></div>
+
+	<script type="text/javascript">
+
+	window.onload = function() {
+
+		var target = document.getElementById("target"),
+			url = "http://www.burstly.com"
+
+		loadHTML(target, url)
+	}
+
+	function loadHTML(target, url) {
+
+		var ajax = new XMLHttpRequest()
+
+		ajax.onreadystatechange = function () {
+			if (ajax.readyState == 4 && ajax.status == 200) {
+				target.innerHTML = ajax.responseText
+			}
+		}
+
+		ajax.open("GET", url, true)
+		ajax.send()
+	}
+
+	</script>
+
+</body>
+</html>
