@@ -1,14 +1,16 @@
-##My Blog
+#My Blog
 
-Coffee, LESS, and HTML create it.
+[Coffee](http://coffeescript.org/), [LESS](http://lesscss.org/), [Sublime Text](http://www.sublimetext.com/2), and plain ol' HTML construct it.
 
-Grunt watches it.
+[Grunt](http://gruntjs.com/) watches it.
 
-Jekyll assembles it.
+[Jekyll](http://jekyllrb.com/) assembles it.
 
-Amazon S3 hosts it.
+[Amazon S3](http://aws.amazon.com/s3/) hosts it.
 
-People read it.
+[People](http://en.wikipedia.org/wiki/Human) read it.
+
+------------------
 
 ###Install
 
@@ -26,6 +28,6 @@ People read it.
 
     grunt deploy
     
-#####Todo:
-- create Grunt task for writing blog content *currently this is done by hand :-(*
-- acquire readers, currently have between 0 and 1
+###Ideate
+
+    grunt createInterestingPos
