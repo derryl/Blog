@@ -5,6 +5,8 @@ title: "Eliminating Creative Obstacles"
 
 I know how he likes to present himself; Father's weakness is vanity. Hence the slut. Condimentum rutrum, rhoncus ac lorem aliquam. Mr. Lebowski is in seclusion in the West Wing. Placerat posuere neque, at. Stay out of Malibu, deadbeat! Dignissim magna ullamcorper in aliquam sagittis. Yeah man, it really tied the room together. Massa ac tortor ultrices faucibus curabitur eu. It increases the chances of conception. Mi sapien, ut ultricies ipsum morbi eget.
 
+<!--more-->
+
 They call Los Angeles the City of Angels. I didn't find it to be that exactly, but I'll allow as there are some nice folks there. 'Course, I can't say I seen London, and I never been to France, and I ain't never seen no queen in her damn undies as the fella says. But I'll tell you what, after seeing Los Angeles and thisahere story I'm about to unfold —wal, I guess I seen somethin' ever' bit as stupefyin' as ya'd see in any a those other places, and in English too, so I can die with a smile on my face without feelin' like the good Lord gypped me. Risus nulla nullam vel nisi enim, vel.
 
     git checkout master

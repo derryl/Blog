@@ -136,46 +136,16 @@ module.exports = function(grunt) {
                 access: 'public-read'
             },
 
-            test: {
+            dev: {
                 options: {
-                    encodePaths: true
+                    encodePaths: true,
+                    bucket: 'dev.drryl.com',
+                    access: 'public-read'
                 },
                 upload: [
-                    {
-                        src: 'dist/favicon.ico',
-                        dest: 'favicon.ico',
-                        gzip: true,
-                        headers: {'Cache-Control': 'max-age=604800000' }
-                    },{
-                        src: 'dist/robots.txt',
-                        dest: 'robots.txt',
-                        gzip: true,
-                        headers: {'Cache-Control': 'max-age=604800000' }
-                    },{
-                        src: 'dist/index.html',
-                        dest: 'index.html',
-                        gzip: true
-                    },{
-                        src: 'dist/master.min.css',
-                        dest: 'master.min.css',
-                        headers: { 'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=604800000' },
-                        gzip: true
-                    },{
-                        src: 'dist/ga.js',
-                        dest: 'ga.js',
-                        headers: { 'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=604800000' },
-                        gzip: true
-                    },{
-                        src: 'dist/img/**',
-                        dest: 'img/'
-                    },{
-                        src: 'dist/fonts/**',
-                        dest: 'fonts'
-                    },{
-                        src: 'dist/2013/**',
-                        dest: '2013',
-                        gzip: true
-                    }
+                    { src: 'dist/*', dest: '' },
+                    { src: 'dist/img/*', dest: 'img' },
+                    { src: 'dist/fonts/*', dest: 'fonts' }
                 ]
             }
 
@@ -218,7 +188,8 @@ module.exports = function(grunt) {
 
     grunt.registerTask('server', ['connect','watch']);
     
-    grunt.registerTask('deploy', ['s3']);
+    // grunt.registerTask('deploy', ['s3']);
+    grunt.registerTask( 'pushdev', [ 's3:dev' ]);
 
     grunt.registerTask('default', ['server']);
 
