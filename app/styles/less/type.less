@@ -1,14 +1,15 @@
 body {
     font-size: 100%;
-    line-height: 1.5em;
-    font-family: "Meta Serif Pro", Georgia, Times New Roman, serif;
+    line-height: 1.62em;
+    .sans-serif;
+    /*-webkit-font-smoothing: antialiased;*/
     /*font-family: "freight-sans-pro", 'Meta Serif Pro', "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;*/
-    text-rendering: optimizeLegibility;
+    /*text-rendering: optimizeLegibility;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
-    .sans-serif;
-    /*font-family: "Gotham Rounded", sans-serif;*/
+    .headline;
+    
 }
 
 h1 { 
@@ -27,6 +28,7 @@ h3 {
 }
 
 p {
+    .sans-serif;
     text-align:  justify;
     font-size:   1.2em;
     line-height: 1.62em;
@@ -39,9 +41,8 @@ p {
 }
 
 a {
-    text-decoration: none;
-    color: @orange;
-    &.tfblue { /*color: #237cc0;*/ }
+    color: @linkColor;
+    text-decoration: underline;
 }
 
 pre {

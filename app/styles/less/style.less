@@ -3,12 +3,6 @@ body {
     color: @bodyColor;
 }
 
-a {
-    color: @primaryColor;
-    text-decoration: underline;
-}
-
-
 @vert-padding: 20px;
 
 
@@ -32,11 +26,13 @@ a {
 
     .body-nav--link {
         display: inline-block;
-        /*color: @mediumGrey;*/
-        color: @white;
-        background: #333;
+        color: @mediumGrey;
+        border: 2px solid lighten(@mediumGrey, 10%);
+        text-decoration: none;
+        /*color: @white;*/
+        /*background: #333;*/
         font-size: 2em;
-        padding: 1em 2em;
+        padding: 1em 1.62em;
         /*text-decoration: none;*/
         /*.sans-serif;*/
     }

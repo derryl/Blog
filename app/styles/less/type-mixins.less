@@ -1,0 +1,47 @@
+
+// Typographic utilities
+
+.normal-weight-and-style() {
+    font-style: normal;
+    font-weight: normal;
+}
+
+.fix-webkit-antialiasing() {
+    -webkit-font-smoothing: antialiased;   
+}
+
+.auto-kern() {
+    text-rendering: optimizeLegibility;
+}
+
+// Font stack shorthands
+
+.headline() {
+    font-family: "proxima-nova", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+    .normal-weight-and-style();
+    .fix-webkit-antialiasing();
+    .auto-kern();
+}
+
+.sans-serif() {
+    font-family: "freight-sans-pro", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+    .normal-weight-and-style();
+    .fix-webkit-antialiasing();
+}
+
+.serif() {
+    font-family: "ff-meta-serif-web-pro", "freight-sans-pro", 'Meta Serif Pro', Georgia, serif;
+    .normal-weight-and-style();
+    .fix-webkit-antialiasing();
+}
+
+.monospace() {
+    font-family: "source-code-pro", "Source Sans", "Menlo", Courier New, monospace;
+    .normal-weight-and-style();
+}
+
+.numerals() {
+    font-family: 'Numerals', 'Meta Serif Pro', Georgia, serif;
+    .normal-weight-and-style();
+    .fix-webkit-antialiasing();
+}
