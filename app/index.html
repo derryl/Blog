@@ -6,10 +6,24 @@ title: Drryl
 {% assign post = site.posts.first %}
 {% assign content = post.content %}
 
+<a href="/">
+    <figure class="logomark"></figure>
+</a>
+
 <article class="post">
 
-    <h1>{{ post.title }}</h1>
+    <h1>
+        {{ post.title }}
+    </h1>
 
     {{ content }}
 
 </article>
+
+<ul class="body-nav">
+    <li>
+        <a href="posts.html" class="body-nav--link">
+            Older posts
+        </a>
+    </li>
+</ul>

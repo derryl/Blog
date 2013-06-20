@@ -1,14 +1,11 @@
 
-
 // Text alignment
 .center { text-align:center; }
 .right  { text-align:right;  }
 .left   { text-align:left;   }
 
-
-
 // 12-column flexible grid
-@gutterWidth: 20px;
+/*@gutterWidth: 20px;
 
 .row { 
     width: 100%;
@@ -33,4 +30,24 @@
     &.ten    { width: 83.33%; }
     &.eleven { width: 91.66%; }
     &.twelve { width: 100%;   }
+}*/
+
+
+// Main page layout
+#wrapper {
+    .clearfix;
+    max-width: 960px;
+    margin: 0 auto;
+    > .column { margin-top: 60px; }
+}
+
+.content {
+    .centered;
+    padding: 4em 0;
+    /*opacity: 1;*/
+    /*.fadeUp;*/
+}
+
+article {
+    padding: 3em 0;
 }

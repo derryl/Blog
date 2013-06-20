@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Cult of Secrecy"
+title: "Eliminating Creative Obstacles"
 ---
 
-I know how he likes to present himself; Father's weakness is vanity. Hence the slut. Condimentum rutrum, rhoncus ac lorem aliquam. Mr. Lebowski is in seclusion in the West Wing. Placerat posuere neque, at. Stay out of Malibu, deadbeat! Dignissim magna ullamcorper in aliquam sagittis. Yeah man, it really tied the room together. Massa ac tortor ultrices faucibus curabitur eu. It increases the chances of conception. Mi sapien, ut ultricies ipsum morbi eget.
+I know how he likes to present himself; Father's weakness is vanity. Hence the slut. Condimentum rutrum, rhoncus ac lorem aliquam. Mr. Lebowski is in seclusion in the West Wing. Placerat posuere neque, at. Stay out of Malibu, deadbeat! Dignissim magna ullamcorper in aliquam sagittis. Yeah man, it really tied the room together. Massa ac tortor ultrices faucibus curabitur eu. It increases the chances of conception. Mi sapien, [ut ultricies ipsum](/) morbi eget.
 
 <!--more-->
 
-They call Los Angeles the City of Angels. I didn't find it to be that exactly, but I'll allow as there are some nice folks there. 'Course, I can't say I seen London, and I never been to France, and I ain't never seen no queen in her damn undies as the fella says. But I'll tell you what, after seeing Los Angeles and thisahere story I'm about to unfold —wal, I guess I seen somethin' ever' bit as stupefyin' as ya'd see in any a those other places, and in English too, so I can die with a smile on my face without feelin' like the good Lord gypped me. Risus nulla nullam vel nisi enim, vel.
+They call Los Angeles the City of Angels. I didn't find it to be that exactly, but I'll allow as there are some nice folks there. 'Course, I can't say I seen London, and I never [been to France](/), and I ain't never seen no queen in her damn undies as the fella says. But I'll tell you what, after seeing Los Angeles and thisahere story I'm about to unfold —wal, I guess I seen somethin' ever' bit as stupefyin' as ya'd see in any a those other places, and in English too, so I can die with a smile on my face without feelin' like the good Lord gypped me. Risus nulla nullam vel nisi enim, vel.
 
     git checkout master
     git merge --no-ff dev
@@ -38,4 +38,4 @@ Welp, that about does her, wraps her all up. Things seem to've worked out pretty
 
 Whose toe was it, Walter? Ac maecenas vitae eros velit. I just want to say, sir, that we're both enormous – on a personal level. Eu suscipit erat integer purus lacus, pretium. Does the Pope shit in the woods? Vel venenatis eu, volutpat non erat donec a metus. A way out west there was a fella, fella I want to tell you about, fella by the name of Jeff Lebowski. At least, that was the handle his lovin' parents gave him, but he never had much use for it himself.
 
-This Lebowski, he called himself the Dude. Now, Dude, that's a name no one would self-apply where I come from. But then, there was a lot about the Dude that didn't make a whole lot of sense to me. And a lot about where he lived, likewise. But then again, maybe that's why I found the place s'durned innarestin'. Ac eros dictum aliquet nulla consectetur egestas placerat maecenas pulvinar nisl.
+This Lebowski, he called himself the Dude. Now, Dude, that's a name no one would self-apply where I come from. But then, there was a lot about the Dude that didn't make a whole lot of sense to me. And a lot about where he lived, likewise. But then again, maybe that's why I found the place s'durned innarestin'. Ac eros dictum aliquet nulla consectetur [egestas placerat](/) maecenas pulvinar nisl.

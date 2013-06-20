@@ -215,7 +215,7 @@ module.exports = function(grunt) {
     // grunt.registerTask('deploy', ['s3']);
     grunt.registerTask( 'pushdev', [ 's3:dev' ]);
 
-    grunt.registerTask('default', ['server']);
+    grunt.registerTask('default', ['build', 'server']);
 
 
     // grunt.registerTask('push', ['build','deploy']);

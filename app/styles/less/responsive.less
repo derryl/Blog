@@ -1,14 +1,15 @@
 .content {
-    width: 700px;
+    width: 760px;
+    /*width: 800px;*/
 }
 
 @media all and (max-width: 970px) {
     body {
         /*font-size: 90%;*/
     }
-    /*.content {
-        width: 760px;
-    }*/
+    .content {
+        width: 700px;
+    }
 }
 
 @media all and (max-width: 740px) {
@@ -27,6 +28,9 @@
     .content {
         width: 460px;
     }
+    .logomark {
+        .square(5em);
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -37,5 +41,14 @@
         width: 100%;
         padding-left: 2em;
         padding-right: 2em;
+    }
+    .logomark {
+        .square(4em);
+    }
+    h1 {
+        font-size: 2em;
+    }
+    article {
+        padding: 1em 0;
     }
 }
