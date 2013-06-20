@@ -18,7 +18,7 @@ module.exports = function(grunt) {
                 'dist/vendor',
                 'dist/coffee',
                 'dist/temp',
-                'dist/styles/master.css'
+                'dist/master.css'
             ]
         },
 
@@ -94,39 +94,24 @@ module.exports = function(grunt) {
             }
         },
 
-        // Point HTML to newly-minified CSS + JS
-        usemin: {
-            html: ['dist/index.html']
-        },
-
-        // Compress all HTML files
-        htmlmin: {
+        htmlcompressor: {
             dist: {
                 options: {
-                    removeComments: true,
-                    removeRedundantAttributes: true,
-                    collapseBooleanAttributes: true,
-                    collapseWhitespace: false,
-                    removeEmptyAttributes: true
+                    type: 'html',
+                    preserveServerScript: true
                 },
-                files: {
-                    'dist/index.html': ['dist/index.html']
-                }
+                files: [{
+                    expand: true,
+                    cwd: 'dist',
+                    src: '{,*/}*.html',
+                    dest: 'dist'
+                }]
             }
         },
 
         jekyll: {
             build: { src: 'app', dest: 'dist' }
         },
-
-
-        // shell: {
-        //     jekyll: {
-        //         command: 'jekyll build',
-        //         stdout: true
-        //     }
-        // },
-
 
         s3: {
             options: {
@@ -143,9 +128,51 @@ module.exports = function(grunt) {
                     access: 'public-read'
                 },
                 upload: [
-                    { src: 'dist/*', dest: '' },
-                    { src: 'dist/img/*', dest: 'img' },
-                    { src: 'dist/fonts/*', dest: 'fonts' }
+                    { src: 'dist/*', dest: '' }
+                    // { src: 'dist/img/*', dest: 'img' },
+                ]
+            },
+
+            fonts: {
+                options: {
+                    encodePaths: true,
+                    bucket: 'dev.drryl.com',
+                    access: 'public-read'
+                },
+                upload: [
+                    {
+                        "src": "dist/fonts/*.ttf",
+                        "dest": "fonts",
+                        "gzip": true,
+                        "headers": {
+                            "Cache-Control": "max-age=2629746000",
+                            "Content-Type": "application/x-font-ttf"
+                        }
+                    },{
+                        "src": "dist/fonts/*.otf",
+                        "dest": "fonts",
+                        "gzip": true,
+                        "headers": {
+                            "Cache-Control": "max-age=2629746000",
+                            "Content-Type": "font/opentype"
+                        }
+                    },{
+                        "src": "dist/fonts/*.woff",
+                        "dest": "fonts",
+                        "gzip": true,
+                        "headers": {
+                            "Cache-Control": "max-age=2629746000",
+                            "Content-Type": "application/font-woff"
+                        }
+                    },{
+                        "src": "dist/fonts/*.svg",
+                        "dest": "fonts",
+                        "gzip": true,
+                        "headers": {
+                            "Cache-Control": "max-age=2629746000",
+                            "Content-Type": "image/svg+xml"
+                        }
+                    }
                 ]
             }
 
@@ -154,9 +181,8 @@ module.exports = function(grunt) {
     }); // end .initConfig()
 
 
-    // grunt.loadNpmTasks('grunt-contrib-livereload');
     grunt.loadNpmTasks('grunt-contrib-connect');
-    grunt.loadNpmTasks('grunt-contrib-htmlmin');
+    grunt.loadNpmTasks('grunt-htmlcompressor');
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-coffee');
@@ -166,7 +192,6 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-less');
     grunt.loadNpmTasks('grunt-jekyll');
-    grunt.loadNpmTasks('grunt-usemin');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-s3');
 
@@ -181,9 +206,8 @@ module.exports = function(grunt) {
         'coffee',
         'concat',
         'cssmin',
+        'htmlcompressor',
         'clean:post'
-        // 'usemin',    
-        // 'htmlmin'    
     ]);
 
     grunt.registerTask('server', ['connect','watch']);

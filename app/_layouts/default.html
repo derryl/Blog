@@ -22,7 +22,15 @@
 
     </section>
 
-    <script type="text/javascript" src="/app.js"></script>
+    <!-- <script type="text/javascript" src="/app.js" defer></script> -->
+
+    <script type="text/javascript">
+    window.onload = function() {
+        var app = document.createElement("script");
+        app.setAttribute("src", "/app.js");
+        document.body.appendChild(app);
+    };
+    </script>
 
     <script type="text/javascript">
         // var _gaq = _gaq || [];
