@@ -11,7 +11,7 @@ They call Los Angeles the City of Angels. I didn't find it to be that exactly, b
 
     git checkout master
     git merge --no-ff dev
-    git push origin/master
+    git push origin master
     
     function doSomething() {
         var str = 'my string';
@@ -22,6 +22,15 @@ They call Los Angeles the City of Angels. I didn't find it to be that exactly, b
 
 I see you rolled your way into the semis. Dios mio, man. Seamus and me, we're gonna fuck you up. Auctor ante morbi id urna vel felis lacinia placerat vestibulum. I'm unemployed. Turpis nulla, viverra nec volutpat ac, ornare id lectus cras pharetra faucibus tristique nullam.
 
+I don't know about you, but I take comfort in that. It's good knowin' he's out there, the Dude, takin' her easy for all us sinners. Shit, I sure hope he makes the finals.
+
+> Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+> id sem consectetuer libero luctus adipiscing.
+
+Welp, that about does her, wraps her all up. Things seem to've worked out pretty good for the Dude'n Walter, and it was a purt good story, dontcha think? Made me laugh to beat the band. Parts, anyway. Course—I didn't like seein' Donny go. But then, happen to know that there's a little Lebowski on the way. I guess that's the way the whole durned human comedy keeps perpetuatin' itself, down through the generations, westward the wagons, across the sands a time until— aw, look at me, I'm ramblin' again. Wal, uh hope you folks enjoyed yourselves. Non accumsan justo nulla facilisi integer interdum elementum nulla, nec eleifend nisl euismod.
+
+Whose toe was it, Walter? Ac maecenas vitae eros velit. I just want to say, sir, that we're both enormous – on a personal level. Eu suscipit erat integer purus lacus, pretium. Does the Pope shit in the woods? Vel venenatis eu, volutpat non erat donec a metus. A way out west there was a fella, fella I want to tell you about, fella by the name of Jeff Lebowski. At least, that was the handle his lovin' parents gave him, but he never had much use for it himself.
+
     <html>
         <head></head>
         <body>
@@ -31,11 +40,5 @@ I see you rolled your way into the semis. Dios mio, man. Seamus and me, we're go
             </div>
         </body>
     </html>
-
-I don't know about you, but I take comfort in that. It's good knowin' he's out there, the Dude, takin' her easy for all us sinners. Shit, I sure hope he makes the finals.
-
-Welp, that about does her, wraps her all up. Things seem to've worked out pretty good for the Dude'n Walter, and it was a purt good story, dontcha think? Made me laugh to beat the band. Parts, anyway. Course—I didn't like seein' Donny go. But then, happen to know that there's a little Lebowski on the way. I guess that's the way the whole durned human comedy keeps perpetuatin' itself, down through the generations, westward the wagons, across the sands a time until— aw, look at me, I'm ramblin' again. Wal, uh hope you folks enjoyed yourselves. Non accumsan justo nulla facilisi integer interdum elementum nulla, nec eleifend nisl euismod.
-
-Whose toe was it, Walter? Ac maecenas vitae eros velit. I just want to say, sir, that we're both enormous – on a personal level. Eu suscipit erat integer purus lacus, pretium. Does the Pope shit in the woods? Vel venenatis eu, volutpat non erat donec a metus. A way out west there was a fella, fella I want to tell you about, fella by the name of Jeff Lebowski. At least, that was the handle his lovin' parents gave him, but he never had much use for it himself.
 
 This Lebowski, he called himself the Dude. Now, Dude, that's a name no one would self-apply where I come from. But then, there was a lot about the Dude that didn't make a whole lot of sense to me. And a lot about where he lived, likewise. But then again, maybe that's why I found the place s'durned innarestin'. Ac eros dictum aliquet nulla consectetur [egestas placerat](/) maecenas pulvinar nisl.
