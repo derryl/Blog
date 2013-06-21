@@ -29,15 +29,16 @@ img {
 // About page
 
 .about {
-    .centered;
-    @media @biggish { width: 70%; }
-    /*@media @normal { width: 70%; }*/
+    .align-center;
+    /*.align-left;*/
     .about--photo {
         width: 100%;
         max-width: 500px;
     }
-    .about--info {
-        .align-center;
-    }
+    /*h2 { .align-left; }*/
+    .about--info { .smaller; .align-center; }
+    /*@media @smallish {*/
+        /*h2, .about--info { .align-center; }*/
+    /*}*/
 }
 

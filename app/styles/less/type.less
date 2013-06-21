@@ -7,16 +7,23 @@ body {
     /*text-rendering: optimizeLegibility;*/
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
     .headline;
-
+    text-align: center;
+    &.sans { 
+        .sans-serif;
+        font-weight: bold;
+    }
 }
 
 h1 { 
     font-size: 2.6em;
     line-height: 1.4em;
     margin-bottom: 1.2em;
-    text-align: center;
+}
+
+h2 {
+    font-size: 2em;
 }
 
 h3 {
@@ -24,7 +31,6 @@ h3 {
     line-height: 1.4em;
     margin-bottom: 1.2em;
     margin-top: 2em;
-    text-align: center;  
 }
 
 p {
@@ -38,6 +44,18 @@ p {
         font-size: 2.4em;
         font-weight: 500;
     }
+    &.smaller {
+        font-size: 0.9em;
+    }
+}
+
+.larger() {
+    font-size: 2.4em;
+    font-weight: 500;
+}
+
+.smaller() {
+    font-size: 0.9em;
 }
 
 a {
@@ -55,7 +73,14 @@ pre {
     margin-bottom: 1.62em;
 }
 
-/*@media all and (min-width: 480px) { body { font-size: 75%;  } }
-@media all and (min-width: 600px) { body { font-size: 85%;  } }
-@media all and (min-width: 760px) { body { font-size: 100%; } }
-@media all and (min-width: 960px) { body { font-size: 120%; } }*/
+strong {
+    font-weight: normal;
+    .headline;
+}
+
+@media @smallish {
+    h1 { font-size: 2em; }
+}
+@media @tiny {
+    p { font-size: 1.4em; }
+}

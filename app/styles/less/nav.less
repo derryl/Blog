@@ -9,82 +9,67 @@
     .clearfix;
 }
 
-.top-nav--home {
-    display: inline-block;
-}
-
-.top-nav--logomark {
-    .size(80px, 74px);
-    margin: 0 auto;
-    background: url(/img/d-logomark.png) 0 0 no-repeat;
-    background-size: 100% auto;
-}
-
-/*.top-nav--links {
-
-    display: block;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    position: absolute;
-    top: 0; right: 0;
-    .align-right;
-
-    li { 
-        display: block;
-        margin: 0.3em 0;
-        &:first-child {    margin-top: 0; }
-        &:last-child  { margin-bottom: 0; }
-    }
-    a  {
-        .headline;
-        font-size: 1em;
-        color: lighten(@textColor, 40%);
-        text-decoration: none;
-        .transition(~"color 0.25s ease-in-out");
-        &:hover { color: @textColor !important; }
-    }
-}*/
-
 .top-nav--links {
 
     display: block;
     list-style: none;
     padding: 0;
-    margin: 0 auto 2em;
+    margin: 0 auto;
     width: 100%;
     .clearfix;
 
     li { 
         display: block;
         .pull-left;
-        width: 25%;
+        width: 33.33%;
+        /*width: 25%;*/
+        margin: @lineHeight/2 0;
     }
     a  {
         display: inline-block; 
         width: 100%; height: 100%;
-        padding: @lineHeight 0;
+        padding: @lineHeight/2 0;
         .sans-serif;
         font-weight: bold;
         font-size: 1.62em;
         color: lighten(@textColor, 50%);
         text-decoration: none;
-        .transition(~"color 0.15s ease-in-out");
+        .transition(~"color .75s ease-in-out");
     }
 
     &:hover a {
         color: lighten(@textColor, 40%);
+        .transition(~"color .35s ease-in-out");
     }
 
     a:hover, li.active a {
         color: @textColor !important;
     }
 
+    li.active {
+        /*border-bottom: 2px solid @primary;*/
+    }
+
     @media @biggish {
         width: 85%;
     }
 }
+
+.top-nav--home {
+    width: 7em;
+    margin: 0 auto;
+    display: block;
+}
+
+.top-nav--logomark {
+    .size(80px, 74px);
+    margin: 2em auto 0;
+    background: url(/img/d-logomark.png) 0 0 no-repeat;
+    background-size: 100% auto;
+    @media @small { .square(5em); }
+    @media @tiny  { .square(4em); }
+}
+
 
 // Darken the nav links when hovering on top nav area
 /*.top-nav:hover {

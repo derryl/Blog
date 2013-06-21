@@ -1,30 +1,33 @@
 
+// Shows all of my posts in a list
 .post-list {
-    /*display: inline-block;*/
     margin-top: 4em;
     padding: 0;
     .align-center;
 }
 
+// Contains a single post within that list
 .post-list--item {
     display: block;
-    height: 4em;
+    margin-bottom: @lineHeight * 2;
 }
 
-.post-list--timestamp, .post-list--permalink {
-    /*display: inline-block;*/
-    /*vertical-align: middle;*/
-}
-
+// e.g. June 15, 2013
 .post-list--timestamp {
-    .hide;
-    width: 7em;
+    display: block;
     font-size: 1em;
+    color: @lightText;
+    margin-bottom: @lineHeight / 2;
+    .headline;
 }
 
+// Post title: Big. Honkin. Orange.
 .post-list--permalink {
     display: block;
     .headline;
-    font-size: 2em;
     text-decoration: none;
+    font-size: 2em;
+    @media @biggish {
+        font-size: 2.6em;
+    }
 }

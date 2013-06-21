@@ -1,36 +1,29 @@
----
-layout: post
----
 <!doctype html>
 <html>
 <head>
-    <title>Drryl{{ if page.title }} | {{ page.title }} {{ endif }}</title>
+    <title>Derryl Carter</title>
     <link rel="stylesheet" href="/master.min.css">
     {% include metadata.html %}
     {% include typekit_loader.html %}
 </head>
 
-<body class="view-post">
+<body class="view-home">
 
     <section class="content">
 
         {% include top_navigation.html %}
-        {% include logomark.html %}
 
-        <article class="post">
-        
-            <h1>
-                {{ page.title }}
-            </h1>
-
-            {{ content }}
-
-            <p class="post-meta">Posted on 15 June, 2013</p>
-
-        </article>
-
+        {{ content }}
 
     </section>
+
+    <script type="text/javascript">
+    window.onload = function() {
+        var app = document.createElement("script");
+        app.setAttribute("src", "/app.js");
+        document.body.appendChild(app);
+    };
+    </script>
 
     <script type="text/javascript">
         // var _gaq = _gaq || [];

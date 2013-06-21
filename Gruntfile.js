@@ -76,8 +76,8 @@ module.exports = function(grunt) {
         // kick off a dev build and trigger LiveReload
         watch: {
             files: ['<%= d.source %>/**'],
-            options: { livereload: d.liveReloadPort },
-            tasks: ['build:dev']
+            tasks: ['build:dev'],
+            options: { livereload: true }
         },
 
         concat: {
