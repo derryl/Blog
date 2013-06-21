@@ -1,45 +1,66 @@
+
+@huge:   ~"all and (min-width: 60.6250001em)";                              // > 970
+@normal: ~"all and (min-width: 47.5000001em) and (max-width: 60.625em)";    // 740 - 970
+@medium: ~"all and (min-width: 40.0000001em) and (max-width: 47.5em)";      // 640 - 740
+@small:  ~"all and (min-width: 30.0000001em) and (max-width: 40em)";        // 480 - 640
+@tiny:   ~"all and (max-width: 30em)";                                      // < 480
+
+@step1: @tiny;
+@step2: @small;
+@step3: @medium;
+@step4: @normal;
+@step5: @huge;
+
+@biggish:  ~"all and (min-width: 47.5000001em)";
+@smallish: ~"all and (max-width: 40em)";
+
+@normal_or_less: ~"all and (max-width: 60.625em)";
+@medium_or_less: ~"all and (max-width: 47.500em)";
+@small_or_less:  ~"all and (max-width: 40.000em)";
+
+
 .content {
-    width: 760px;
-    /*width: 800px;*/
+    width: 47.5em;
 }
 
-@media all and (max-width: 970px) {
-    body {
-        /*font-size: 90%;*/
-    }
-    .content {
-        width: 700px;
+.resizeAll(@pct: 100%) {
+    body { font-size: @pct; }
+}
+
+@media @normal_or_less {
+    .content { 
+        width: 43.75em;
     }
 }
 
-@media all and (max-width: 740px) {
-    body {
-        font-size: 85%;
-    }
+@media @medium_or_less {
+
+    .resizeAll(85%);
+
     .content {
         width: 540px;
     }
 }
 
-@media all and (max-width: 640px) {
-    body {
-        font-size: 75%;
-    }
+@media @small_or_less {
+
+    .resizeAll(75%);
+
     .content {
-        width: 460px;
+        width: 28em;
     }
     .logomark {
         .square(5em);
     }
 }
 
-@media all and (max-width: 480px) {
-    body {
-        /*font-size: 70%;*/
-    }
+@media @tiny {
+
+    .resizeAll(70%);
+
     .content {
         width: 100%;
-        padding-left: 2em;
+        padding-left:  2em;
         padding-right: 2em;
     }
     .logomark {

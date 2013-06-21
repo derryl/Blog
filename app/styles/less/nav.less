@@ -1,0 +1,122 @@
+
+// Top Nav
+
+.top-nav {
+    display: block;
+    position: relative;
+    .centered;
+    .align-center;
+    .clearfix;
+}
+
+.top-nav--home {
+    display: inline-block;
+}
+
+.top-nav--logomark {
+    .size(80px, 74px);
+    margin: 0 auto;
+    background: url(/img/d-logomark.png) 0 0 no-repeat;
+    background-size: 100% auto;
+}
+
+/*.top-nav--links {
+
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    top: 0; right: 0;
+    .align-right;
+
+    li { 
+        display: block;
+        margin: 0.3em 0;
+        &:first-child {    margin-top: 0; }
+        &:last-child  { margin-bottom: 0; }
+    }
+    a  {
+        .headline;
+        font-size: 1em;
+        color: lighten(@textColor, 40%);
+        text-decoration: none;
+        .transition(~"color 0.25s ease-in-out");
+        &:hover { color: @textColor !important; }
+    }
+}*/
+
+.top-nav--links {
+
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto 2em;
+    width: 100%;
+    .clearfix;
+
+    li { 
+        display: block;
+        .pull-left;
+        width: 33%;
+    }
+    a  {
+        display: inline-block; 
+        width: 100%; height: 100%;
+        padding: @lineHeight 0;
+        .sans-serif;
+        font-weight: bold;
+        font-size: 1.62em;
+        color: lighten(@textColor, 50%);
+        text-decoration: none;
+        .transition(~"color 0.15s ease-in-out");
+    }
+
+    &:hover a {
+        color: lighten(@textColor, 40%);
+    }
+
+    a:hover, li.active a {
+        color: @textColor !important;
+    }
+
+    @media @biggish {
+        width: 65%;
+    }
+}
+
+// Darken the nav links when hovering on top nav area
+/*.top-nav:hover {
+    .top-nav--links a {
+        color: lighten(@textColor, 40%);
+    }
+}*/
+
+
+
+
+
+// Bottom Nav
+
+// Nav at bottom of page
+.bottom-nav {
+
+    margin-top: 2em;
+    list-style: none;
+    text-align: center;
+
+    .bottom-nav--link {
+        display: inline-block;
+        color: @mediumGrey;
+        border: 2px solid lighten(@mediumGrey, 10%);
+        text-decoration: none;
+        font-size: 2em;
+        padding: (@lineHeight * 0.5) @lineHeight (@lineHeight / 1.62);
+        &:hover {
+            color: darken(@mediumGrey, 10%);
+            background: lighten(@mediumGrey, 35%);
+        }
+    }
+
+}

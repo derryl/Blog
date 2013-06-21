@@ -6,20 +6,28 @@
 
 
 // Main page layout
-#wrapper {
-    .clearfix;
-    max-width: 960px;
-    margin: 0 auto;
-    > .column { margin-top: 60px; }
+body {
+    padding-bottom: 5em;
+    /*&.view-home { padding-top: 5em; }*/
+    &.view-post { padding-top: 0;   } // un-needed, but placed here for clarity
+
+    /*&:after {
+        display: block;
+        content: '';
+        position: fixed;
+        top: 0; left: 50%;
+        width: 1px; height: 100%;
+        background: rgba(0,0,0,0.1);
+    }*/
 }
 
 .content {
     .centered;
-    padding: 4em 0;
-    /*opacity: 1;*/
-    /*.fadeUp;*/
+    /*padding: 4em 0;*/
+    /*background: rgba(0,255,0,0.2);*/
 }
 
 article {
-    padding: 3em 0;
+    padding: 2em 0;
+    /*background: rgba(0,0,255,0.2);*/
 }
