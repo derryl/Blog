@@ -1,24 +1,29 @@
 'use strict';
 
-
 module.exports = function(grunt) {
 
     var jsCSSheaders = {
         'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=3600000'
     };
 
-    var drryl_config = {
+    var d = {
+
         source: 'app',    // source files
         app:    'public', // build location for dev
         dist:   'dist',   // build location for distribution
 
         dev_bucket:  'dev.drryl.com',
         prod_bucket: 'www.drryl.com',
+
+        // LiveReload default is 35729, customizing this avoids
+        // "Port in use" conflicts from the standalone app
+        liveReloadPort: 8788
+                            
     };
 
     grunt.initConfig({
 
-        d: drryl_config,
+        d: d,
 
         aws: grunt.file.readJSON('config/grunt-aws.json'),
 
@@ -36,6 +41,8 @@ module.exports = function(grunt) {
             ]
         },
 
+        // Compiles all of my Jekyll source files, turning
+        // Markdown & HTML snippets into fully-rendered templates
         jekyll: {
             build: { 
                 src: '<%= d.source %>',
@@ -43,6 +50,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // Copy * from public to dist, for production builds
         copy: {
             dist: {
                 files: [{ 
@@ -54,6 +62,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // Serve /public on port 7000
         connect: {
             server: {
                 options: {
@@ -63,9 +72,11 @@ module.exports = function(grunt) {
             }
         },
 
+        // Whenever a source file changes,
+        // kick off a dev build and trigger LiveReload
         watch: {
             files: ['<%= d.source %>/**'],
-            options: { livereload: true },
+            options: { livereload: d.liveReloadPort },
             tasks: ['build:dev']
         },
 
@@ -86,6 +97,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // LESS -> CSS
         less: {
             master: {
                 files: {
@@ -94,6 +106,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // Coffee -> Javascript
         coffee: {
             app: {
                 files: {
@@ -113,6 +126,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // Compress HTML templates (strips whitespace, comments, etc.)
         htmlcompressor: {
             dist: {
                 options: {
@@ -128,6 +142,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // Uglify my JS files
         uglify: {
             dist: {
                 files: {
@@ -136,6 +151,7 @@ module.exports = function(grunt) {
             }
         },
 
+        // Deployment tasks
         s3: {
             options: {
                 key: '<%= aws.key %>',
@@ -242,7 +258,7 @@ module.exports = function(grunt) {
     
     grunt.registerTask( 'pushdev', [ 'build:prod', 's3:dev' ]);
 
-    grunt.registerTask( 'default', [ 'build', 'server' ]);
+    grunt.registerTask( 'default', [ 'build:dev', 'server' ]);
 
 
     // grunt.registerTask('push', ['build','deploy']);
