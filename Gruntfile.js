@@ -7,28 +7,49 @@ module.exports = function(grunt) {
         'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=3600000'
     };
 
+    var drryl_config = {
+        source: 'app',    // source files
+        app:    'public', // build location for dev
+        dist:   'dist',   // build location for distribution
+
+        dev_bucket:  'dev.drryl.com',
+        prod_bucket: 'www.drryl.com',
+    };
+
     grunt.initConfig({
+
+        d: drryl_config,
 
         aws: grunt.file.readJSON('config/grunt-aws.json'),
 
         clean: {
-            prep: ['dist'],
+            prep: [
+                '<%= d.app %>',
+                '<%= d.dist %>'
+            ],
             post: [
-                'dist/styles',
-                'dist/vendor',
-                'dist/coffee',
-                'dist/temp',
-                'dist/master.css'
+                '<%= d.app %>/styles',     '<%= d.dist %>/styles',
+                '<%= d.app %>/vendor',     '<%= d.dist %>/vendor',
+                '<%= d.app %>/coffee',     '<%= d.dist %>/coffee',
+                '<%= d.app %>/temp',       '<%= d.dist %>/temp',
+                '<%= d.app %>/master.css', '<%= d.dist %>/master.css'
             ]
         },
 
+        jekyll: {
+            build: { 
+                src: '<%= d.source %>',
+                dest: '<%= d.app %>'
+            }
+        },
+
         copy: {
-            sites: {
+            dist: {
                 files: [{ 
-                    expand: true, 
-                    cwd: 'app', 
-                    src: ['*.html','*.ico','robots.txt','ga.js'], 
-                    dest: 'dist'
+                    expand: true,
+                    src: ['**'],
+                    cwd: '<%= d.app %>', 
+                    dest: '<%= d.dist %>'
                 }]
             }
         },
@@ -37,40 +58,38 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     port: 7000,
-                    base: 'dist'
+                    base: '<%= d.app %>'
                 }
             }
         },
 
         watch: {
-            files: ['app/**'],
-            tasks: ['build'],
-            options: {
-                livereload: true
-            }
+            files: ['<%= d.source %>/**'],
+            options: { livereload: true },
+            tasks: ['build:dev']
         },
 
         concat: {
             // Concat all global JavaScript (libraries, core, etc.)
             libs: {
                 src: [
-                    'dist/vendor/zepto.min.js',
-                    'dist/vendor/prettify.js'
-                    // 'dist/vendor/highlight.pack.js'
-                ], dest: 'dist/temp/vendor.js'
+                    '<%= d.app %>/vendor/zepto.min.js',
+                    '<%= d.app %>/vendor/prettify.js'
+                    // '<%= d.app %>/vendor/highlight.pack.js'
+                ], dest: '<%= d.app %>/temp/vendor.js'
             },
             app: {
                 src: [
-                    'dist/temp/vendor.js',
-                    'dist/temp/main.js'
-                ], dest: 'dist/app.js'
+                    '<%= d.app %>/temp/vendor.js',
+                    '<%= d.app %>/temp/main.js'
+                ], dest: '<%= d.app %>/app.js'
             }
         },
 
         less: {
             master: {
                 files: {
-                    'dist/master.css': 'dist/styles/master.less'
+                    '<%= d.app %>/master.css': '<%= d.app %>/styles/master.less'
                 }
             }
         },
@@ -78,7 +97,7 @@ module.exports = function(grunt) {
         coffee: {
             app: {
                 files: {
-                    'dist/temp/main.js': 'dist/coffee/main.coffee'
+                    '<%= d.app %>/temp/main.js': '<%= d.app %>/coffee/main.coffee'
                 }
             }
         },
@@ -87,9 +106,9 @@ module.exports = function(grunt) {
         cssmin: {
             site: {
                 expand: true,
-                cwd: 'dist',
+                cwd: '<%= d.app %>',
                 src: ['master.css'],
-                dest: 'dist',
+                dest: '<%= d.app %>',
                 ext: '.min.css'
             }
         },
@@ -102,15 +121,19 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: 'dist',
+                    cwd: '<%= d.dist %>',
                     src: '{,*/}*.html',
-                    dest: 'dist'
+                    dest: '<%= d.dist %>'
                 }]
             }
         },
 
-        jekyll: {
-            build: { src: 'app', dest: 'dist' }
+        uglify: {
+            dist: {
+                files: {
+                    '<%= d.dist %>/app.js': ['<%= d.dist %>/app.js']
+                }
+            }
         },
 
         s3: {
@@ -128,8 +151,8 @@ module.exports = function(grunt) {
                     access: 'public-read'
                 },
                 upload: [
-                    { src: 'dist/*', dest: '' }
-                    // { src: 'dist/img/*', dest: 'img' },
+                    { src: 'dist/*', dest: '', gzip: true },
+                    { src: 'dist/img/*', dest: 'img' }
                 ]
             },
 
@@ -198,24 +221,28 @@ module.exports = function(grunt) {
 
 
     // Default task(s).
-    grunt.registerTask('build', [
+    grunt.registerTask('build:dev', [
         'clean:prep',
         'jekyll',
-        // 'copy',  // now handled by jekyll task
         'less',
         'coffee',
         'concat',
         'cssmin',
-        'htmlcompressor',
         'clean:post'
     ]);
 
-    grunt.registerTask('server', ['connect','watch']);
-    
-    // grunt.registerTask('deploy', ['s3']);
-    grunt.registerTask( 'pushdev', [ 's3:dev' ]);
+    grunt.registerTask('build:prod', [
+        'build:dev',
+        'copy:dist',
+        'htmlcompressor',
+        'uglify'
+    ]);
 
-    grunt.registerTask('default', ['build', 'server']);
+    grunt.registerTask( 'server',  [ 'connect', 'watch' ]);
+    
+    grunt.registerTask( 'pushdev', [ 'build:prod', 's3:dev' ]);
+
+    grunt.registerTask( 'default', [ 'build', 'server' ]);
 
 
     // grunt.registerTask('push', ['build','deploy']);
