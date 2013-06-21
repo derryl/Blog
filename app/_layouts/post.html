@@ -4,22 +4,12 @@ layout: post
 <!doctype html>
 <html>
 <head>
-    <title>Drryl</title>
-    <meta name="keywords" content="Derryl Carter, Drryl, interface design, web app design, ui design, web designer, front-end dev, TestFlight, startup, santa monica, CSS3, HTML5, backbone, underscore, zepto, jquery,"/>
-    <meta name="author" content="Derryl Carter"/>
-    <!-- build:css master.min.css -->
+    <title>Drryl{{ if page.title }} | {{ page.title }} {{ endif }}</title>
     <link rel="stylesheet" href="/master.min.css">
-    <!-- endbuild -->
-    <link rel="icon" href="favicon.ico">
-    <meta content="True" name="HandheldFriendly"/>
-    <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
-    <meta name="apple-touch-fullscreen" content="yes"/>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="format-detection" content="telephone=no"/>
-    <!-- Load custom fonts from Typekit -->
-    <script type="text/javascript" src="//use.typekit.net/jgp6zah.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    {% include metadata.html %}
+    {% include typekit_loader.html %}
 </head>
+
 <body class="view-post">
 
     <section class="content">

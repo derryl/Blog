@@ -11,8 +11,11 @@
 @step4: @normal;
 @step5: @huge;
 
+
 @biggish:  ~"all and (min-width: 47.5000001em)";
 @smallish: ~"all and (max-width: 40em)";
+@not_small:~"all and (min-width: 40.00001em)";
+@not_tiny: ~"all and (min-width: 30.00001em)";
 
 @normal_or_less: ~"all and (max-width: 60.625em)";
 @medium_or_less: ~"all and (max-width: 47.500em)";
@@ -24,52 +27,32 @@
 }
 
 .resizeAll(@pct: 100%) {
-    body { font-size: @pct; }
+    body { font-size: @pct !important; }
 }
 
 @media @normal_or_less {
-    .content { 
-        width: 43.75em;
-    }
+    .content {  width: 43.75em; }
 }
 
 @media @medium_or_less {
-
-    .resizeAll(85%);
-
-    .content {
-        width: 540px;
-    }
+    .resizeAll( 85% );
+    .content { width: 540px; }
 }
 
 @media @small_or_less {
-
-    .resizeAll(75%);
-
-    .content {
-        width: 28em;
-    }
-    .logomark {
-        .square(5em);
-    }
+    .resizeAll( 75% );
+    .content  { width: 28em; }
+    .logomark { .square(5em); }
 }
 
 @media @tiny {
-
-    .resizeAll(70%);
-
+    .resizeAll( 70% );
     .content {
         width: 100%;
         padding-left:  2em;
         padding-right: 2em;
     }
-    .logomark {
-        .square(4em);
-    }
-    h1 {
-        font-size: 2em;
-    }
-    article {
-        padding: 1em 0;
-    }
+    .logomark { .square(4em); }
+    h1        { font-size: 2em; }
+    article   { padding: 1em 0; }
 }

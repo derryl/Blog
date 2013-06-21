@@ -3,6 +3,10 @@ body {
     color: @textColor;
 }
 
+img {
+    max-width: 100%;
+}
+
 
 // Written on ... displayed after post
 .post-meta {
@@ -14,48 +18,26 @@ body {
 }
 
 
+// Masthead images
 
-// Nav at bottom of page
-.body-nav {
-
-    margin-top: 2em;
-    list-style: none;
-    text-align: center;
-
-    .body-nav--link {
-        display: inline-block;
-        color: @mediumGrey;
-        border: 2px solid lighten(@mediumGrey, 10%);
-        text-decoration: none;
-        /*color: @white;*/
-        /*background: #333;*/
-        font-size: 2em;
-        padding: 1em 1.62em;
-        /*text-decoration: none;*/
-        /*.sans-serif;*/
-    }
-
-}
-
-
-/*.links {
-    margin-top: 7em;
-}
-
-.links a {
-    display: inline-block;
-    color: #666;
-    font-size: 1.5em;
-    font-weight: 500;
-    margin: 0 0.35em;
-    padding: 0.6em 1.3em;
-    border-radius: 3em;
-    border: 0.2em solid rgba(0,0,0,0.1);
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    &:hover {
-        border-color: rgba(0,0,0,0.5);
-        color: #333;
-    }
+/*.masthead {
+    width: 100%;
+    margin-left: -4em;
+    margin-right: -4em;
 }*/
+
+// About page
+
+.about {
+    .centered;
+    @media @biggish { width: 70%; }
+    /*@media @normal { width: 70%; }*/
+    .about--photo {
+        width: 100%;
+        max-width: 500px;
+    }
+    .about--info {
+        .align-center;
+    }
+}
+
