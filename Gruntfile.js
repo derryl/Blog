@@ -154,9 +154,8 @@ module.exports = function(grunt) {
         // Deployment tasks
         s3: {
             options: {
-                key: '<%= aws.key %>',
+                key:    '<%= aws.key %>',
                 secret: '<%= aws.secret %>',
-                bucket: '<%= aws.bucket %>',
                 access: 'public-read'
             },
 
