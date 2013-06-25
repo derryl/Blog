@@ -12,14 +12,16 @@
 @step5: @huge;
 
 
-@biggish:  ~"all and (min-width: 47.5000001em)";
-@smallish: ~"all and (max-width: 40em)";
-@not_small:~"all and (min-width: 40.00001em)";
-@not_tiny: ~"all and (min-width: 30.00001em)";
+@biggish:  ~"(min-width: 47.5000001em)";
+@smallish: ~"(max-width: 40em)";
+@not_small:~"(min-width: 40.00001em)";
+@not_tiny: ~"(min-width: 30.00001em)";
 
-@normal_or_less: ~"all and (max-width: 60.625em)";
-@medium_or_less: ~"all and (max-width: 47.500em)";
-@small_or_less:  ~"all and (max-width: 40.000em)";
+@normal_or_less: ~"(max-width: 60.625em)";
+@medium_or_less: ~"(max-width: 47.500em)";
+@small_or_less:  ~"(max-width: 40.000em)";
+
+@retina: ~"(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
 
 
 .content {

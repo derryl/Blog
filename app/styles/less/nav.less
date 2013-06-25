@@ -3,7 +3,6 @@
 
 .top-nav {
     display: block;
-    position: relative;
     .centered;
     .align-center;
     .clearfix;
@@ -19,64 +18,89 @@
     .clearfix;
 
     li { 
-        display: block;
         .pull-left;
-        width: 33.33%;
-        /*width: 25%;*/
-        margin: @lineHeight/2 0;
+        display: block;
+        height: 74px;
+        margin: @lineHeight/2 0 0;
+
+        width: 28%; 
+        &.narrow { width: 16%; }
     }
-    a  {
-        display: inline-block; 
-        width: 100%; height: 100%;
+
+    a {
+        .size(100%, 100%);
+        display: inline-block;
         padding: @lineHeight/2 0;
+
         .sans-serif;
         font-weight: bold;
         font-size: 1.62em;
         color: lighten(@textColor, 50%);
         text-decoration: none;
         .transition(~"color .75s ease-in-out");
+
+        &.top-nav--home {
+            padding-top: @lineHeight/3;
+            padding-bottom: 0;
+        }
     }
 
+
+    // Hovering on the nav area -> links darken slightly
     &:hover a {
         color: lighten(@textColor, 40%);
         .transition(~"color .35s ease-in-out");
     }
 
+    // Active/hovered links are even darker
     a:hover, li.active a {
         color: @textColor !important;
     }
 
-    li.active {
-        /*border-bottom: 2px solid @primary;*/
-    }
-
+    // Constrain nav width on large screens
     @media @biggish {
-        width: 85%;
+        width: 65%;
     }
 }
 
+
+
 .top-nav--home {
-    width: 7em;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
 
 .top-nav--logomark {
-    .size(80px, 74px);
-    margin: 2em auto 0;
-    background: url(/img/d-logomark.png) 0 0 no-repeat;
+    .square(2em);
+    margin: 0 auto;
+    background: url(/img/d-logomark-retina.png) 0 0 no-repeat;
     background-size: 100% auto;
-    @media @small { .square(5em); }
-    @media @tiny  { .square(4em); }
 }
 
 
-// Darken the nav links when hovering on top nav area
-/*.top-nav:hover {
-    .top-nav--links a {
-        color: lighten(@textColor, 40%);
+
+
+.top-nav.stacked {
+    .top-nav--links li {
+        width: 100% / 3;
     }
-}*/
+}
+
+.top-nav--home.stacked {
+    width: 7em !important;
+    .top-nav--logomark {
+        .size(80px, 74px);
+        margin-top: 2em;
+        @media @small { .square(5em); margin-top: 1em; }
+        @media @tiny  { .square(4em); margin-top: 0; }
+    }
+}
+
+
+
+
+
 
 
 
