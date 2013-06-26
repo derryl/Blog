@@ -16,7 +16,7 @@
 .post-list--timestamp {
     display: block;
     font-size: 1em;
-    color: @lightText;
+    color: @lightGrey;
     margin-bottom: @lineHeight / 2;
     .headline;
 }
@@ -25,9 +25,15 @@
 .post-list--permalink {
     display: block;
     .headline;
-    text-decoration: none;
+    margin-top: 0;
     font-size: 2em;
-    @media @biggish {
-        font-size: 2.6em;
+    a {
+        text-decoration: none;
+        border-bottom: 0.1em solid rgba(0,0,0,0);
+        .transition(~"border 0.15s linear");
+        &:hover {
+            border-bottom: 0.1em solid @primary;
+        }
     }
+    @media @biggish { font-size: 2.6em; }
 }

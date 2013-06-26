@@ -2,19 +2,18 @@ body {
     font-size: 100%;
     line-height: 1.62em;
     .sans-serif;
-    /*-webkit-font-smoothing: antialiased;*/
-    /*font-family: "freight-sans-pro", 'Meta Serif Pro', "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;*/
-    /*text-rendering: optimizeLegibility;*/
+    -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4 {
     .headline;
-    text-align: center;
     &.sans { 
         .sans-serif;
         font-weight: bold;
     }
 }
+
+article { h1, h2, h3, h4 { .align-center; } }
 
 h1 { 
     font-size: 2.6em;
@@ -32,7 +31,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.62em;
     line-height: 1.4em;
     margin-bottom: 1.2em;
     margin-top: 2em;
@@ -68,7 +67,11 @@ a {
     text-decoration: underline;
 }
 
-blockquote p {
+blockquote {
+    .clearfix;
+}
+
+article blockquote p {
     .serif;
     .align-center;
     padding: 0.5em 0;

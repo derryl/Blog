@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Do More with LESS"
+category: 'editorial'
+title: "Eliminating Creative Obstacles"
 ---
 
 I know how he likes to present himself; Father's weakness is vanity. Hence the slut. Condimentum rutrum, rhoncus ac lorem aliquam. Mr. Lebowski is in seclusion in the West Wing. Placerat posuere neque, at. Stay out of Malibu, deadbeat! Dignissim magna ullamcorper in aliquam sagittis. Yeah man, it really tied the room together. Massa ac tortor ultrices faucibus curabitur eu. It increases the chances of conception. Mi sapien, [ut ultricies ipsum](/) morbi eget.

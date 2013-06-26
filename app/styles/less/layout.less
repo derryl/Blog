@@ -45,8 +45,12 @@
 
 
 // Main page layout
+html, body {
+    height: 100%;
+}
+
 body {
-    padding-bottom: 5em;
+    /*padding-bottom: 5em;*/
     /*.centerline;*/
 }
 
@@ -56,6 +60,14 @@ body, .content, article {
 
 .content {
     .centered;
+    // for the sticky footer
+    min-height: 100%;
+    margin-bottom: -@footerHeight;
+    &:after { content: ''; display: block; }
+}
+
+.footer, .content:after {
+    height: @footerHeight;
 }
 
 article {

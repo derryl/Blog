@@ -1,0 +1,44 @@
+// List of external links, with optional commentary
+
+.link-list {
+    list-style: none;
+    text-align: left;
+    margin: 0; padding: 0;
+}
+
+.link {
+
+    @contentSpacing: @lineHeight * 0.5;
+
+    padding: @contentSpacing 0;
+    margin-bottom: @contentSpacing;
+    border-bottom: 1px solid @superLightGrey;
+    &:last-child { border: none; }
+
+    .link-title {
+        margin: 0;
+        a { .no-underline; }
+    }
+
+    .link-description {
+        margin: 0;
+    }
+
+    p {
+        .align-left;
+        margin-bottom: @contentSpacing;
+    }
+
+    blockquote {
+        margin: @lineHeight 0;
+        padding: 0 2.5em;
+        .border-radius();
+        background: #FFFDFC;
+        p { 
+            display: block;
+            font-size: 1em;
+            line-height: @lineHeight * 1.1;
+            margin: @lineHeight 0;
+        }
+    }
+}

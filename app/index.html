@@ -3,13 +3,21 @@ layout: default
 title: Drryl
 ---
 
-{% assign post = site.posts.first %}
-{% assign content = post.content %}
+{% for post in site.posts %}
+    {% assign found_post = 'false' %}
+    {% if post.category == 'editorial' %}
+        {% if found_post == 'false' %}
+            {% assign foundpost = 'true' %}
+            {% assign first_post = post %}
+            {% assign content = first_post.content %}
+        {% endif %}
+    {% endif %}
+{% endfor %}
 
 <article class="post">
 
     <h1>
-        {{ post.title }}
+        {{ first_post.title }}
     </h1>
 
     {{ content }}
