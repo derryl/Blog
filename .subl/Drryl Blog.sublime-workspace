@@ -1,0 +1,2687 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"top-na",
+				"top-nav--links"
+			],
+			[
+				"cen",
+				"centerline"
+			],
+			[
+				"live",
+				"liveReloadPort"
+			],
+			[
+				"verti",
+				"vertical-align"
+			],
+			[
+				"view",
+				"viewsRoute"
+			],
+			[
+				"get",
+				"getTokenContents"
+			],
+			[
+				"tok",
+				"tokenConfig"
+			],
+			[
+				"bare",
+				"bareName"
+			],
+			[
+				"QA",
+				"QA_testflight"
+			],
+			[
+				"html",
+				"htmlcompressor"
+			],
+			[
+				"branch",
+				"branchName"
+			],
+			[
+				"bra",
+				"branchName"
+			],
+			[
+				"cur",
+				"currentBranch"
+			],
+			[
+				"burstly",
+				"burstly-public"
+			],
+			[
+				"vert",
+				"vertical-align"
+			],
+			[
+				"subm",
+				"submitInProgress"
+			],
+			[
+				"bor",
+				"borderAdjustment"
+			],
+			[
+				"te",
+				"textGrey"
+			],
+			[
+				"window",
+				"windowHeight"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"bann",
+				"bannerHeight"
+			],
+			[
+				"ba",
+				"bannerHeight"
+			],
+			[
+				"flight",
+				"flightpath_banner"
+			],
+			[
+				"nu",
+				"numPivoted"
+			],
+			[
+				"mob",
+				"mobilePortrait"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"chec",
+				"checkHeaderState"
+			],
+			[
+				"check",
+				"checkHeaderState"
+			],
+			[
+				"ex",
+				"expandHeader"
+			],
+			[
+				"is",
+				"isMobile"
+			],
+			[
+				"mobile",
+				"mobileWidth"
+			],
+			[
+				"border-radius",
+				"border-top-left-radius"
+			],
+			[
+				"mobi",
+				"mobileWidth"
+			],
+			[
+				"pic_re",
+				"pic_real_width"
+			],
+			[
+				"wid",
+				"widthText"
+			],
+			[
+				"show",
+				"showErrorMsg"
+			],
+			[
+				"email",
+				"emailField"
+			],
+			[
+				"image",
+				"image-with-gradientBG"
+			],
+			[
+				"succ",
+				"successMsg"
+			],
+			[
+				"signup",
+				"signup_confirmation"
+			],
+			[
+				"subfoot",
+				"subfootHeight"
+			],
+			[
+				"topN",
+				"topNavHeight"
+			],
+			[
+				"top",
+				"topNavHeight"
+			],
+			[
+				"na",
+				"navMenu"
+			],
+			[
+				"foo",
+				"foothead-background"
+			],
+			[
+				"table",
+				"table-layout"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"temp",
+				"temp_linechart_data_alt"
+			],
+			[
+				"tooltip",
+				"tooltip_time"
+			],
+			[
+				"init",
+				"initializeTooltip"
+			],
+			[
+				"sh",
+				"showTooltip"
+			],
+			[
+				"redr",
+				"redrawTimeout"
+			],
+			[
+				"tim",
+				"timestamp"
+			],
+			[
+				"Date",
+				"DateObject"
+			],
+			[
+				"st",
+				"startIndex"
+			],
+			[
+				"star",
+				"start"
+			],
+			[
+				"startIn",
+				"startIndex"
+			],
+			[
+				"set",
+				"setStartIndex"
+			],
+			[
+				"start",
+				"startIndex"
+			],
+			[
+				"mose",
+				"mouseoverLine"
+			],
+			[
+				"canv",
+				"canvasStartY"
+			],
+			[
+				"canva",
+				"canvasStartX"
+			],
+			[
+				"draw",
+				"drawDataPoints"
+			],
+			[
+				"data",
+				"dataPointGroup"
+			],
+			[
+				"conten",
+				"contentPad"
+			],
+			[
+				"conte",
+				"contentPadding"
+			],
+			[
+				"cont",
+				"contentArea"
+			],
+			[
+				"filter",
+				"filterwrapper"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"page",
+				"pageCover"
+			],
+			[
+				"cha",
+				"chartEl"
+			],
+			[
+				"segment",
+				"segmentName"
+			],
+			[
+				"over",
+				"overwriteMsg"
+			],
+			[
+				"sho",
+				"showModal"
+			],
+			[
+				"lowe",
+				"lowerBound"
+			],
+			[
+				"can",
+				"canvasStopY"
+			],
+			[
+				"mouse",
+				"mouseoverLine"
+			],
+			[
+				"mous",
+				"mouseoverLine"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"mu",
+				"mouseoverLine"
+			],
+			[
+				"mou",
+				"mouseoverLine"
+			],
+			[
+				"mo",
+				"mouseoverLine"
+			],
+			[
+				"upper",
+				"upperBound"
+			],
+			[
+				"slop",
+				"slopeAdjust"
+			],
+			[
+				"slo",
+				"slopeAdjust"
+			],
+			[
+				"slope",
+				"slopeAdjustment"
+			],
+			[
+				"sl",
+				"slopeAdjustmentFactor"
+			],
+			[
+				"inc",
+				"increaseSlope"
+			],
+			[
+				"raw",
+				"rawSlope"
+			],
+			[
+				"cal",
+				"calcSlopes"
+			],
+			[
+				"uppe",
+				"upperBound"
+			],
+			[
+				"combin",
+				"combinedDates"
+			],
+			[
+				"comb",
+				"combinedDates"
+			],
+			[
+				"his",
+				"histogram_data"
+			],
+			[
+				"xLabel",
+				"xLabelVals"
+			],
+			[
+				"xLa",
+				"xLabelVals"
+			],
+			[
+				"xL",
+				"xLabelVals"
+			],
+			[
+				"date",
+				"dateLabels"
+			],
+			[
+				"canvas",
+				"canvasStopX"
+			],
+			[
+				"ca",
+				"canvasStartX"
+			],
+			[
+				"dataP",
+				"dataPointGroup"
+			],
+			[
+				"save",
+				"saveSegmentModal"
+			],
+			[
+				"hide",
+				"hideFlyoutNav"
+			],
+			[
+				"new",
+				"newSegmentName"
+			],
+			[
+				"pivot",
+				"pivotValue"
+			],
+			[
+				"qu",
+				"query_string"
+			],
+			[
+				"curr",
+				"currentQueryString"
+			],
+			[
+				"widget",
+				"widget-horz-padding"
+			],
+			[
+				"empt",
+				"emptyMessage"
+			],
+			[
+				"emp",
+				"emptyMessage"
+			],
+			[
+				"hum",
+				"humanPivotValue"
+			],
+			[
+				"piv",
+				"pivotData"
+			],
+			[
+				"setup",
+				"setupHumanizationMapping"
+			],
+			[
+				"huma",
+				"humanizeMap"
+			],
+			[
+				"sta",
+				"startDate"
+			],
+			[
+				"ena",
+				"enableSelectedState"
+			],
+			[
+				"parent",
+				"parentPill"
+			],
+			[
+				"tool",
+				"tooltipVisible"
+			],
+			[
+				"dis",
+				"disableSelectedState"
+			],
+			[
+				"lis",
+				"listenForOutsideClicks"
+			],
+			[
+				"pare",
+				"parentPill"
+			],
+			[
+				"mi",
+				"minXOffset"
+			],
+			[
+				"mr",
+				"marginLeft"
+			],
+			[
+				"margin",
+				"marginLeft"
+			],
+			[
+				"pa",
+				"parentMidpoint"
+			],
+			[
+				"chart",
+				"chartHeight"
+			],
+			[
+				"too",
+				"tooltipVisible"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/master.less",
+			"settings":
+			{
+				"buffer_size": 671,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/variables.less",
+			"settings":
+			{
+				"buffer_size": 666,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/mixins.less",
+			"settings":
+			{
+				"buffer_size": 1426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/responsive.less",
+			"settings":
+			{
+				"buffer_size": 1594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/type-mixins.less",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/fonts.less",
+			"settings":
+			{
+				"buffer_size": 587,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/type.less",
+			"settings":
+			{
+				"buffer_size": 1289,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/layout.less",
+			"settings":
+			{
+				"buffer_size": 1474,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/footer.less",
+			"settings":
+			{
+				"buffer_size": 278,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/nav.less",
+			"settings":
+			{
+				"buffer_size": 2285,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/code.less",
+			"settings":
+			{
+				"buffer_size": 1721,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/style.less",
+			"settings":
+			{
+				"buffer_size": 266,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
+			"settings":
+			{
+				"buffer_size": 786,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/page-reading.less",
+			"settings":
+			{
+				"buffer_size": 833,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/page-about.less",
+			"settings":
+			{
+				"buffer_size": 297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/styles/less/errors.less",
+			"settings":
+			{
+				"buffer_size": 485,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/Gruntfile.js",
+			"settings":
+			{
+				"buffer_size": 7674,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 1112,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_includes/footer.html",
+			"settings":
+			{
+				"buffer_size": 107,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_layouts/subpage.html",
+			"settings":
+			{
+				"buffer_size": 1102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/reading/index.html",
+			"settings":
+			{
+				"buffer_size": 512,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_config.yml",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/index.html",
+			"settings":
+			{
+				"buffer_size": 630,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_layouts/post.html",
+			"settings":
+			{
+				"buffer_size": 1061,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_stacked.html",
+			"settings":
+			{
+				"buffer_size": 400,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_compact.html",
+			"settings":
+			{
+				"buffer_size": 466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/error.html",
+			"settings":
+			{
+				"buffer_size": 164,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/Rakefile",
+			"settings":
+			{
+				"buffer_size": 3624,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_plugins/excerpt.rb",
+			"settings":
+			{
+				"buffer_size": 418,
+				"line_ending": "Unix",
+				"name": "# This goes in _plugins/excerpt.rb"
+			}
+		}
+	],
+	"build_system": "Packages/User/recess.sublime-build",
+	"command_palette":
+	{
+		"height": 291.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"html",
+				"Tidy HTML"
+			],
+			[
+				"pac",
+				"Package Control: Add Repository"
+			],
+			[
+				"",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 265.0
+	},
+	"console":
+	{
+		"height": 136.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/derryl/repos/Blog/app/styles/less/posts-all.less",
+		"/Users/derryl/repos/Blog/app/styles/less/posts-single.less",
+		"/Users/derryl/repos/Blog/app/posts.html",
+		"/Users/derryl/repos/Blog/app/reading.html",
+		"/Users/derryl/repos/Blog/app/about.html",
+		"/Users/derryl/repos/Blog/app/_includes/metadata.html",
+		"/Users/derryl/repos/Blog/app/_includes/logomark.html",
+		"/Users/derryl/repos/Blog/app/_layouts/no_logo.html",
+		"/Users/derryl/repos/Blog/app/_posts/2013-06-15-eliminating-creative-obstacles.md",
+		"/Users/derryl/repos/Blog/config/grunt-aws.json",
+		"/Users/derryl/repos/Blog/app/_includes/typekit_loader.html",
+		"/Users/derryl/repos/Blog/app/_config.yml",
+		"/Users/derryl/repos/Blog/package.json",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/footer.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/header.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/onload.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/layout.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/buttons.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/type.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/vars.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/responsive.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/core.less",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/master.less",
+		"/Users/derryl/repos/gruntRewards/app/views/layouts/full_page.jade",
+		"/Users/derryl/repos/gruntRewards/app/views/layouts/master.jade",
+		"/Users/derryl/repos/gruntRewards/app/views/offer_video.jade",
+		"/Users/derryl/repos/gruntRewards/app/styles/source/footer.les",
+		"/Users/derryl/repos/gruntRewards/app/styles/master.css",
+		"/Users/derryl/repos/gruntRewards/app/views/index.jade",
+		"/Users/derryl/repos/gruntRewards/app/server.js",
+		"/Users/derryl/repos/gruntRewards/config/fixture-tokens.json",
+		"/Users/derryl/repos/gruntRewards/Gruntfile.js",
+		"/Users/derryl/repos/gruntRewards/package.json",
+		"/Users/derryl/repos/gruntRewards/app/views/includes/meta.jade",
+		"/Users/derryl/repos/gruntRewards/app/views/includes/head_meta.jade",
+		"/Users/derryl/repos/gruntRewards/app/views/layouts/layout.jade",
+		"/Users/derryl/repos/gruntRewards/app/views/foo.jade",
+		"/Users/derryl/repos/gruntRewards/public/views/index.jade",
+		"/Users/derryl/repos/gruntRewards/config/all-tokens-uncleaned.json",
+		"/Users/derryl/repos/grunt-express-example/app/server.js",
+		"/Users/derryl/repos/gruntRewards/app/views/layouts/layout.snip.jade",
+		"/Users/derryl/repos/gruntRewards/app/index.jade",
+		"/Users/derryl/repos/gruntRewards/app/layout.snip.jade",
+		"/Users/derryl/repos/gruntRewards/app/layout.jade",
+		"/Users/derryl/repos/gruntRewards/node_modules/grunt-contrib-livereload/lib/utils.js",
+		"/Users/derryl/repos/Burstly-Public-Pages/dist/s3-targets.json",
+		"/Users/derryl/repos/Burstly-Public-Pages/config/deploy_burstly_dev.json",
+		"/Users/derryl/repos/Burstly-Public-Pages/Grunt-extras.js",
+		"/Users/derryl/Desktop/_WORK/Sublime Projects/public-TASKS.sublime-project",
+		"/Users/derryl/repos/Burstly-Public-Pages/node_modules/grunt-s3/tasks/s3.js",
+		"/Users/derryl/repos/Burstly-Public-Pages/node_modules/grunt-contrib-cssmin/tasks/cssmin.js",
+		"/Users/derryl/repos/Burstly-Public-Pages/node_modules/message/tasks/message.js",
+		"/Users/derryl/repos/Burstly-Public-Pages/grunt.js",
+		"/Users/derryl/repos/Burstly-Public-Pages/Gruntfile.js",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/themes/skyrocket/homepage.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/homepage.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/responsive.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/mixins.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/responsive-variables.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/elements.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/grid.less.bak.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/responsive-widths.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/layout.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/layout.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/icons.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/styles.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/mixins.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/type.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/colors.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/sites/skyrocket/styles/main.css",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/public/responsive-variables.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/core/fonts.less",
+		"/Users/derryl/Desktop/v3 styles/fonts.less",
+		"/Users/derryl/repos/Burstly-Public-Pages/styles/themes/skyrocket/master-skyrocket.less",
+		"/Users/derryl/repos/TestFlight/styleguide/docs/skyrocket/index.html",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/base.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/marketing-page-elements.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/grid.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/style.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/modals.less",
+		"/Users/derryl/repos/TestFlight/web/settings/pipeline_assets.py",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/core/fonts.less",
+		"/Users/derryl/repos/TestFlight/styleguide/js/html5shiv.js",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/core/styles.less",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/libs/d3.v3.min.js",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/js/functions.js",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/master-flightpath-public.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/core/type.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/modules/flightpath_banner/banner.css",
+		"/Users/derryl/repos/TestFlight/web/templates/v2/base.html",
+		"/Library/Preferences/com.apple.loginitems.plist",
+		"/Users/derryl/.bashrc",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/type.less",
+		"/Users/derryl/Desktop/new_style_guide.html",
+		"/Users/derryl/Downloads/Windows7Ultimate/Windows7UltimateREADME.NFO",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/colors.less",
+		"/Users/derryl/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics_tutorial.html",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/pathcreator.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/less/font.less",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/toggles.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/storyboard.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/main.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/filterbar.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/functions.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/barchart.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/less/main.less",
+		"/Users/derryl/repos/TestFlight/styleguide/modules/public/fp_landing_animation/coffee/title.coffee",
+		"/Users/derryl/repos/TestFlight/web/templates/flightpath/analytics.html",
+		"/Users/derryl/repos/TestFlight/web/templates/base.html",
+		"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/announcement.html",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/header.less",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/modals.less",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/views.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/segments.coffee",
+		"/Users/derryl/repos/TestFlight/web/templates/v2/android.html",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/tf_core/footer.less",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/footer.less",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/style.less",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/colors.less",
+		"/Users/derryl/repos/TestFlight/web/templates/mobile/nav/flyout.html",
+		"/Users/derryl/repos/TestFlight/styleguide/mobilev2/views.coffee/nav.coffee",
+		"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/homepage.less",
+		"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/homepage.less",
+		"/Users/derryl/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/derryl/repos/TestFlight/web/templates/v2/index.html",
+		"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/analytics.html",
+		"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"*.less",
+			"",
+			"*less",
+			"*public*less",
+			"html",
+			"*.less",
+			"",
+			"*.less",
+			"*.coffee",
+			"",
+			"*.less",
+			"*.coffee",
+			"*.less",
+			"*.coffee",
+			"*.less",
+			"*.coffee",
+			"",
+			"*.less",
+			"",
+			"*.coffee",
+			"",
+			"*.less",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"ad*.html",
+			"*.less",
+			"ad*.html",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"*.html",
+			".html",
+			"ads*.html",
+			"*.html",
+			"*.less",
+			"*.html",
+			"*.less",
+			"",
+			"*.html",
+			"",
+			"*.less",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"CONFIG['posts']",
+			"@lightText",
+			"version",
+			"get_stdin",
+			"#333",
+			"dist",
+			"drryl",
+			"dist",
+			"/img/d-logomark.png",
+			"img",
+			"86400000",
+			"base-size",
+			"base-line-height",
+			"landscape",
+			"headers",
+			"gzip",
+			"dest",
+			"headers",
+			"'",
+			"src",
+			">>",
+			"burstly",
+			"QA_",
+			"qa_",
+			"headers",
+			"imageHeaders",
+			"'",
+			"jsCSSheaders",
+			"headers",
+			"gzip",
+			"dest",
+			"src",
+			"'",
+			"burstly",
+			"dev_",
+			"headers: { 'Cache-Control': 'max-age=86400000'}",
+			"'",
+			"testflight",
+			"86400000",
+			"message",
+			"@import \"",
+			"step",
+			"font-family",
+			".",
+			"@weight: normal,",
+			"font-weight: @weight;",
+			"themes/public",
+			"../../",
+			"../",
+			"../core",
+			"core",
+			"Core",
+			"core",
+			"emphasis",
+			"radarAnimation",
+			":before",
+			":after",
+			"@lt_",
+			"transition",
+			"contain-vertically-centered-content",
+			"h5",
+			"overlay",
+			"container",
+			"RkZUTWDK5MkAAAEsAAAAHEdERUYJtwg+",
+			"setColumn",
+			"btn",
+			"htmlcast",
+			"btn",
+			"mobile-hide",
+			".column.feature",
+			"masthead",
+			"flexrow",
+			"content",
+			"four",
+			"flexrow",
+			"hideErrorMsg",
+			"showErrorMsg",
+			"errorMsg",
+			"signup",
+			"offwhite",
+			"footer-mobile.jpg",
+			"mobile",
+			"get-s",
+			"mobile success",
+			"84px",
+			"invis",
+			"58px",
+			".clear",
+			".ttf)",
+			"url('..f",
+			"data:font/truetype",
+			"data:font/TrueType",
+			"data:font/truetype",
+			"embedded-opentype",
+			".eot');",
+			"min-height",
+			"m-table",
+			"mobilehide",
+			"flush",
+			"zoom",
+			"feature",
+			"verticalMargin",
+			"class=\"flex restrain\"",
+			"../img/fp_presskit/FlightPath_",
+			"../img/press/",
+			"@desktopLarge",
+			"75em",
+			"60em",
+			"961",
+			"@phone",
+			"@desktop",
+			"@phone",
+			"<h1>FOOBAR</h1>\n<p>When in the course of human events, it becomes necessary to include a Django template...</p>",
+			"\"",
+			"flexrow",
+			"rgba(0,0,0,1)",
+			"rgba(0,0,0,0)",
+			"small",
+			"past ye",
+			"border-top-left",
+			"collapsed",
+			"widget",
+			"header-content",
+			"meta",
+			"top-left",
+			"inline",
+			"border-radius",
+			"footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"@lightGrey",
+			"@textColor",
+			"\"",
+			"\"headers\"",
+			"{ \"Cache-Control\": \"max-age=86400000\" }",
+			"\"",
+			"{ \"Vary\": \"Accept-Encoding\", \"Cache-Control\": \"max-age=3600000\" }",
+			"{ 'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=3600000' }",
+			"\"headers\"",
+			"\"gzip\"",
+			"\"dest\"",
+			"\"src\"",
+			"\"",
+			"row",
+			"hideInvalidState",
+			"showInvalidState",
+			"mobile-hide",
+			"class=\"flex restrain thumbnail press\"",
+			"../img/fp_presskit/files/FlightPath_",
+			"../img/fp_presskit/",
+			"'",
+			"row",
+			"@darkColor",
+			"@lightColor",
+			"class='fp-label",
+			"class=\"fp-label",
+			"@phone",
+			":",
+			"0",
+			"break 480",
+			"break 320",
+			"../img",
+			".fp-nav,",
+			".fp-nav ",
+			"assets_static/html5video",
+			"'",
+			"",
+			"@dateLabels",
+			"setBounds",
+			"handleHeightChange",
+			"el",
+			"@upperBound",
+			"dates",
+			"parentHeight",
+			"parentWidth",
+			"canvasStopY",
+			"canvasStopX",
+			"canvasStartX",
+			"canvasStartY",
+			"data",
+			"'",
+			"Segment.currentSegment",
+			"Segments",
+			"pivotName",
+			"2010",
+			"mean",
+			"analytics-demo.html",
+			"drawRandomData",
+			"fp.charts.animateNumber",
+			"fp.charts.makeChart",
+			"fp.charts.randData",
+			"rotateX",
+			"<section id=\"",
+			"\"figure-label widget-title\"",
+			"widget",
+			"<h1 class=\"pagetitle ",
+			"header",
+			"container",
+			"headers",
+			"\"fpactions",
+			".fpactions",
+			"key",
+			"<li><a href=\"apps.html\">Apps</a></li>",
+			"date",
+			"time",
+			"value",
+			"pm",
+			"y",
+			"x",
+			"@fp_light_grey",
+			"",
+			"../js/jquery-1.7.1.min.js",
+			"<link rel=\"stylesheet/less\" type=\"text/css\" href=\"../lib/master.less\">\n    <script src=\"../js/less.js\"></script>",
+			"",
+			"<input type=\"text\" size=\"30\" name=\"email\" id=\"email\" class=\"span2\"><span>&nbsp; seconds</span>",
+			"@dark_grey",
+			"<!-- Styles are being supplied by \"../js/debug.js\" in Development build ONLY\n	<link rel=\"stylesheet/less\" type=\"text/css\" href=\"../lib/master.less\">\n    <script src=\"../js/less.js\"></script>-->",
+			"<script src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js\"></script>\n    <script src=\"../js/debug.js\"></script>",
+			"",
+			"    <script src=\"../js/less.js\"></script>\n    <script src=\"../js/debug.js\"></script>",
+			"lib",
+			"                  <li><a href=\"networks.html\">Network Config</a></li>\n                  <li><a href=\"data-export.html\">Data Export</a></li>",
+			"<li><a href=\"networks.html\">Network Config</a></li>\n<li><a href=\"data-export.html\">Data Export</a></li>",
+			"<li class=\"divider\"></li>\n				  <li><a href=\"admin.html\">Admin</a></li>\n                  <li><a href=\"#\">Log Out</a></li>",
+			"",
+			"<label>",
+			"<h2 class=\"has-icon",
+			"<li><a href=\"reward_create.html\" class=\"primary btn\"><span>&#10010; New Reward<span></a></li>\n<li><a href=\"ad_create.html\" class=\"primary btn\"><span>&#10010; Create New Ad<span></a></li>",
+			"<input type=\"text\" size=\"30\" name=\"email\" id=\"email\" class=\"span2\" placeholder=\"30\"><span>&nbsp; seconds</span>\n                                <span class=\"subtext\">Optional. This Ad's refresh rate will override anything specified at the Zone level.</span>",
+			"<small>Time to refresh Ad rotation</small>",
+			"",
+			"<li><a class=\"bedit\" href=\"ad_edit.html\">Edit Ad</a></li>",
+			"<li><a href=\"networks.html\">Network Config</a></li>\n<li><a href=\"data-export.html\">Data Export</a></li>",
+			"<li><a href=\"ad_create.html\" class=\"primary btn\"><span>&#10010; Create New Ad<span></a></li>",
+			"<li><a href=\"account.html\">Account Settings</a></li>\n<li><a href=\"networks.html\">Network Config</a></li>",
+			"<!-- <li><a href=\"networks.html\">Networks</a></li> -->",
+			"<li><a href=\"http://www.burstly.com/home/Terms\">Terms of Use</a></li>\n            <li><a href=\"http://www.burstly.com/home/Privacy\">Privacy Policy</a></li>",
+			"<li><a href=\"https://github.com/Burstly/Burstly-SDKs\">Download the SDK</a></li>\n            <li><a href=\"terms-of-use.html\">Terms of Use</a></li>\n            <li><a href=\"privacy.html\">Privacy Policy</a></li>\n            <li><a href=\"http://blog.burstly.com\">Blog</a></li>\n            <li><a href=\"http://twitter.com/burstly\" title=\"@testflightapp\">@burstly</a></li>\n            <li><a href=\"mailto:support@burstly.com?subject=feedback\">support@burstly.com</a></li>    \n            <li><a href=\"http://support.burstly.com\">Help &amp; Support</a></li>",
+			"href=\"ads_display.html\"",
+			"targets",
+			"",
+			"<!-- <li><a href=\"rewards.html\">Rewards</a></li> -->",
+			"href=\"ad_edit.html\"",
+			"<li><a href=\"dashboard.html\">Dashboard</a></li>",
+			"<div class=\"fill\">\n          <div class=\"container\">\n            <a class=\"brand\" href=\"#\">Burstly</a>\n            <ul class=\"nav secondary-nav\">\n              <li><a href=\"#\">Stan Hudecek</a></li>\n              <li class=\"dropdown\">\n                <a class=\"dropdown-toggle account\" href=\"#\">Account Settings</a>\n                <ul class=\"dropdown-menu\">\n                  <li><a href=\"#\">Account Settings</a></li>\n                  <li class=\"divider\"></li>\n                  <li><a href=\"#\">Log Out</a></li>\n                </ul>\n              </li>\n            </ul>\n          </div>\n        </div>",
+			"<li><a class=\"editc active\" href=\"ad_view.html\">Edit Creative</a></li>",
+			"<li><a class=\"editc\" href=\"ad_view.html\">Edit Creative</a></li>",
+			"<li><a class=\"customtargeting\" href=\"ad_targets_custom.html\">Custom Targeting</a></li>",
+			"<li><a class=\"customtargeting active\" href=\"ad_targets_custom.html\">Custom Targeting</a></li>",
+			"<li><a class=\"servinglimits active\" href=\"ad_targets_limits.html\">Serving Limits</a></li>",
+			"<li><a class=\"servinglimits\" href=\"ad_targets_limits.html\">Serving Limits</a></li>",
+			"<li><a class=\"freqcaps active\" href=\"ad_targets_freqcaps.html\">Frequency Caps</a></li>",
+			"<li><a class=\"freqcaps\" href=\"ad_targets_freqcaps.html\">Frequency Caps</a></li>",
+			"<li><a class=\"geotargeting active\" href=\"ad_targets_geotargeting.html\">Geotargeting</a></li>",
+			"<li><a class=\"geotargeting\" href=\"ad_targets_geotargeting.html\">Geotargeting</a></li>",
+			"<li><a class=\"assignments active\" href=\"ad_assignments.html\">Zone Assignments</a></li>",
+			"<li><a class=\"assignments\" href=\"ad_assignments.html\">Zone Assignments</a></li>",
+			"<li><a class=\"edit active\" href=\"ad_view.html\">Edit Creative</a></li>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/derryl/repos/Blog/app/styles/master.less",
+					"settings":
+					{
+						"buffer_size": 671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								225,
+								225
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/variables.less",
+					"settings":
+					{
+						"buffer_size": 666,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								245,
+								245
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 151.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/mixins.less",
+					"settings":
+					{
+						"buffer_size": 1426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1426,
+								1307
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 859.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/responsive.less",
+					"settings":
+					{
+						"buffer_size": 1594,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1586,
+								1586
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/type-mixins.less",
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1170,
+								1157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 320.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/fonts.less",
+					"settings":
+					{
+						"buffer_size": 587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/type.less",
+					"settings":
+					{
+						"buffer_size": 1289,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1026,
+								1026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 933.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/layout.less",
+					"settings":
+					{
+						"buffer_size": 1474,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								990,
+								990
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 695.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/footer.less",
+					"settings":
+					{
+						"buffer_size": 278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								270,
+								270
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/nav.less",
+					"settings":
+					{
+						"buffer_size": 2285,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								590,
+								614
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 400.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/code.less",
+					"settings":
+					{
+						"buffer_size": 1721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								73,
+								68
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/style.less",
+					"settings":
+					{
+						"buffer_size": 266,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								264,
+								264
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
+					"settings":
+					{
+						"buffer_size": 786,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								189,
+								189
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/page-reading.less",
+					"settings":
+					{
+						"buffer_size": 833,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								302,
+								302
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/page-about.less",
+					"settings":
+					{
+						"buffer_size": 297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								297,
+								297
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/errors.less",
+					"settings":
+					{
+						"buffer_size": 485,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 11,
+			"sheets":
+			[
+				{
+					"buffer": 16,
+					"file": "/Users/derryl/repos/Blog/Gruntfile.js",
+					"settings":
+					{
+						"buffer_size": 7674,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4740,
+								4740
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3978.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/Users/derryl/repos/Blog/app/_layouts/default.html",
+					"settings":
+					{
+						"buffer_size": 1112,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								414,
+								389
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 193.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/Users/derryl/repos/Blog/app/_includes/footer.html",
+					"settings":
+					{
+						"buffer_size": 107,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								23,
+								23
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/Users/derryl/repos/Blog/app/_layouts/subpage.html",
+					"settings":
+					{
+						"buffer_size": 1102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								404,
+								404
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 266.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/Users/derryl/repos/Blog/app/reading/index.html",
+					"settings":
+					{
+						"buffer_size": 512,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "/Users/derryl/repos/Blog/app/_config.yml",
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/Users/derryl/repos/Blog/app/index.html",
+					"settings":
+					{
+						"buffer_size": 630,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								272,
+								272
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 44.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/Users/derryl/repos/Blog/app/_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 1061,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_stacked.html",
+					"settings":
+					{
+						"buffer_size": 400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								247,
+								247
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_compact.html",
+					"settings":
+					{
+						"buffer_size": 466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								459,
+								459
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/derryl/repos/Blog/app/error.html",
+					"settings":
+					{
+						"buffer_size": 164,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								19,
+								19
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/Users/derryl/repos/Blog/Rakefile",
+					"settings":
+					{
+						"buffer_size": 3624,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2794,
+								2794
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1380.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/Users/derryl/repos/Blog/app/_plugins/excerpt.rb",
+					"settings":
+					{
+						"buffer_size": 418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								408,
+								408
+							]
+						],
+						"settings":
+						{
+							"auto_name": "# This goes in _plugins/excerpt.rb",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.237969395113,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 347.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/derryl/repos/Blog/app/styles/less/variables.less"
+			],
+			[
+				"read",
+				"/Users/derryl/repos/Blog/app/styles/less/page-reading.less"
+			],
+			[
+				"lay",
+				"/Users/derryl/repos/Blog/app/styles/less/layout.less"
+			],
+			[
+				"pos",
+				"/Users/derryl/repos/Blog/app/styles/less/page-posts.less"
+			],
+			[
+				"var",
+				"/Users/derryl/repos/Blog/app/styles/less/variables.less"
+			],
+			[
+				"nav",
+				"/Users/derryl/repos/Blog/app/styles/less/nav.less"
+			],
+			[
+				"cod",
+				"/Users/derryl/repos/Blog/app/styles/less/code.less"
+			],
+			[
+				"ty",
+				"/Users/derryl/repos/Blog/app/styles/less/type.less"
+			],
+			[
+				"l",
+				"/Users/derryl/repos/Blog/app/styles/less/layout.less"
+			],
+			[
+				"sty",
+				"/Users/derryl/repos/Blog/app/styles/less/style.less"
+			],
+			[
+				"na",
+				"/Users/derryl/repos/Blog/app/styles/less/nav.less"
+			],
+			[
+				"mo",
+				"/Users/derryl/repos/rewards/app/styles/source/modals.less"
+			],
+			[
+				"type",
+				"/Users/derryl/repos/rewards/app/styles/source/type.less"
+			],
+			[
+				"el",
+				"/Users/derryl/repos/rewards/app/styles/source/elements.less"
+			],
+			[
+				"an",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/announcement.html"
+			],
+			[
+				"typ",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/style.less"
+			],
+			[
+				"con",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/core/fonts.less"
+			],
+			[
+				"st",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/style.less"
+			],
+			[
+				"la",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/layout.less"
+			],
+			[
+				"he",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/header.less"
+			],
+			[
+				"styl",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/style.less"
+			],
+			[
+				"res",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/responsive-widths.less"
+			],
+			[
+				"lib/themes/flightpath_public/type.less",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/type.less"
+			],
+			[
+				"foo",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/footer.less"
+			],
+			[
+				"head",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/header.less"
+			],
+			[
+				"stat",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics.html"
+			],
+			[
+				"shim",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/responsive-shim.less"
+			],
+			[
+				"sh",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/responsive-shim.less"
+			],
+			[
+				"shi",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/responsive-shim.less"
+			],
+			[
+				"re",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/widgets/retention.html"
+			],
+			[
+				"col",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/colors.less"
+			],
+			[
+				"tut",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics_tutorial.html"
+			],
+			[
+				"stati",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics.html"
+			],
+			[
+				"ana",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics.html"
+			],
+			[
+				"wid",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/widgets.less"
+			],
+			[
+				"style",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/elements.less"
+			],
+			[
+				"char",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/charts.less"
+			],
+			[
+				"flex",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/core/flex-fixed-gutters.less"
+			],
+			[
+				"wi",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/widgets.less"
+			],
+			[
+				"widg",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/widgets.less"
+			],
+			[
+				"flightpathless",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/master.less"
+			],
+			[
+				"hom",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/homepage.less"
+			],
+			[
+				"home",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/homepage.less"
+			],
+			[
+				"co",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/colors.less"
+			],
+			[
+				"pi",
+				"/Users/derryl/repos/TestFlight/web/settings/pipeline_assets.py"
+			],
+			[
+				"ann",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/announcement.html"
+			],
+			[
+				"pre",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/press.html"
+			],
+			[
+				"pres",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/press.html"
+			],
+			[
+				"ma",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/master-flightpath-public.less"
+			],
+			[
+				"mas",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/master-flightpath-public.less"
+			],
+			[
+				"pr",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/press.html"
+			],
+			[
+				"heade",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/header.less"
+			],
+			[
+				"layout",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/layout.less"
+			],
+			[
+				"a",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/announcement.html"
+			],
+			[
+				"hea",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/header.less"
+			],
+			[
+				"header",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/header.less"
+			],
+			[
+				"less",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/modals.less"
+			],
+			[
+				"pip",
+				"/Users/derryl/repos/TestFlight/web/settings/pipeline_assets.py"
+			],
+			[
+				"moda",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/modals.less"
+			],
+			[
+				"master",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/master-flightpath-public.less"
+			],
+			[
+				"andr",
+				"/Users/derryl/repos/TestFlight/web/templates/v2/android.html"
+			],
+			[
+				"p",
+				"/Users/derryl/repos/TestFlight/web/settings/pipeline_assets.py"
+			],
+			[
+				"foot",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/footer.less"
+			],
+			[
+				"layou",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/layout.less"
+			],
+			[
+				"color",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/colors.less"
+			],
+			[
+				"colo",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/colors.less"
+			],
+			[
+				"colors",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/colors.less"
+			],
+			[
+				"font",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/core/fonts.less"
+			],
+			[
+				"style.less",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/style.less"
+			],
+			[
+				"heaer",
+				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/header.less"
+			],
+			[
+				"fit",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/js/lib/fittext.js"
+			],
+			[
+				"mai",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/base.coffee/main.coffee"
+			],
+			[
+				"main",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/base.coffee/main.coffee"
+			],
+			[
+				"ret",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/widgets/retention.html"
+			],
+			[
+				"chart",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/charts.less"
+			],
+			[
+				"aud",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/widgets/audience.html"
+			],
+			[
+				"anal",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/analytics.html"
+			],
+			[
+				"segm",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/views.coffee/segments.coffee"
+			],
+			[
+				"fle",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/core/flex-fixed-gutters.less"
+			],
+			[
+				"base",
+				"/Users/derryl/repos/TestFlight/web/templates/v2/base.html"
+			],
+			[
+				"bas",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/base.html"
+			],
+			[
+				"xch",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/js/lib/xcharts.css"
+			],
+			[
+				"ba",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/base.html"
+			],
+			[
+				"sta",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics.html"
+			],
+			[
+				"time",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/widgets/timeframe.html"
+			],
+			[
+				"ch",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/charts.less"
+			],
+			[
+				"lin",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/linechart.coffee"
+			],
+			[
+				"views",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/base.coffee/views.coffee"
+			],
+			[
+				"timelin",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/views.coffee/widget.timelinechart.coffee"
+			],
+			[
+				"widget",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/widgets/userscrashes.html"
+			],
+			[
+				"tim",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/widgets/timelinechart.html"
+			],
+			[
+				"but",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/buttons.less"
+			],
+			[
+				"clean",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/js/lib/datepicker.clean.css"
+			],
+			[
+				"line",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/linechart.coffee"
+			],
+			[
+				"cha",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/charts.less"
+			],
+			[
+				"fil",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/views.coffee/filterbar.coffee"
+			],
+			[
+				"filt",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/views.coffee/filterbar.coffee"
+			],
+			[
+				"seg",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/views.coffee/segments.coffee"
+			],
+			[
+				"da",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/views.coffee/dateselection.coffee"
+			],
+			[
+				"les",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/master.less"
+			],
+			[
+				"fl",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/ui.coffee/flyout.coffee"
+			],
+			[
+				"css",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/css-tables.less"
+			],
+			[
+				"pa",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/page-elements.less"
+			],
+			[
+				"s",
+				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics.html"
+			],
+			[
+				"form",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/base-forms.less"
+			],
+			[
+				"m",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/master.less"
+			],
+			[
+				"li",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/linechart.coffee"
+			],
+			[
+				"mod",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/modals.less"
+			],
+			[
+				"ne",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/new_analytics.html"
+			],
+			[
+				"n",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/new_analytics.html"
+			],
+			[
+				"base-f",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/base-forms.less"
+			],
+			[
+				"new",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/new_analytics.html"
+			],
+			[
+				"for",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/base-forms.less"
+			],
+			[
+				"hi",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/histogram.coffee"
+			],
+			[
+				"h",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/histogram.coffee"
+			],
+			[
+				"pag",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/page-elements.less"
+			],
+			[
+				"bu",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/buttons.less"
+			],
+			[
+				"ele",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/elements.less"
+			],
+			[
+				"fly",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/ui.coffee/flyout.coffee"
+			],
+			[
+				"view",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/base.coffee/views.coffee"
+			],
+			[
+				"vi",
+				"/Users/derryl/repos/TestFlight/styleguide/fp/base.coffee/views.coffee"
+			],
+			[
+				"page",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/page-elements.less"
+			],
+			[
+				"styles",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/core/styles.less"
+			],
+			[
+				"cs",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/css-tables.less"
+			],
+			[
+				"w",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/widgets.less"
+			],
+			[
+				"ta",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/css-tables.less"
+			],
+			[
+				"anl",
+				"/Users/derryl/repos/TestFlight/web/templates/flightpath/analytics.html"
+			],
+			[
+				"coff",
+				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/time.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 206.0,
+	"status_bar_visible": true
+}
