@@ -29,10 +29,11 @@
     font-size: 2em;
     a {
         text-decoration: none;
-        border-bottom: 0.1em solid rgba(0,0,0,0);
+        /*border-bottom: 0.1em solid rgba(0,0,0,0);*/
         .transition(~"border 0.15s linear");
         &:hover {
-            border-bottom: 0.1em solid @primary;
+            color: darken(@primary, 7%);
+            /*border-bottom: 0.1em solid @primary;*/
         }
     }
     @media @biggish { font-size: 2.6em; }

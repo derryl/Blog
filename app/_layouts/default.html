@@ -23,13 +23,7 @@
 
     {% include footer.html %}
 
-    <script type="text/javascript">
-    window.onload = function() {
-        var app = document.createElement("script");
-        app.setAttribute("src", "/app.js");
-        document.body.appendChild(app);
-    };
-    </script>
+    {% include load_javascript.html %}
 
     <script type="text/javascript">
         // var _gaq = _gaq || [];

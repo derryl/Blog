@@ -8,8 +8,8 @@ title: Reading
 {% for link in site.categories.links %}
 <li class="link">
     <h3 class="link-title">
-        <a href="{{ link.url }}">
-            {{ link.title }}
+        <a href="{{ link.href }}" class="external-link">
+            {{ link.title }} &rarr;
         </a>
     </h3>
     <div class="link-description">

@@ -3,27 +3,28 @@ layout: default
 title: Drryl
 ---
 
-{% for post in site.posts %}
+{% for post in site.posts reversed %}
     {% assign found_post = 'false' %}
     {% if post.category == 'editorial' %}
         {% if found_post == 'false' %}
             {% assign foundpost = 'true' %}
-            {% assign first_post = post %}
-            {% assign content = first_post.content %}
+            {% assign fp = post %}
+            {% assign content = fp.content %}
         {% endif %}
     {% endif %}
 {% endfor %}
 
-<article class="post">
+<article class="post{{ if fp.custom_class }} {{ fp.custom_class }}{{ endif }}">
 
     <h1>
-        {{ first_post.title }}
+        {{ fp.title }}
     </h1>
 
     {{ content }}
 
 </article>
 
+<!--
 <ul class="bottom-nav">
     <li>
         <a class="bottom-nav--link" href="posts.html">
@@ -31,3 +32,4 @@ title: Drryl
         </a>
     </li>
 </ul>
+-->

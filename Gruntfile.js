@@ -85,7 +85,8 @@ module.exports = function(grunt) {
             libs: {
                 src: [
                     '<%= d.app %>/vendor/zepto.min.js',
-                    '<%= d.app %>/vendor/prettify.js'
+                    '<%= d.app %>/vendor/prettify.js',
+                    '<%= d.app %>/vendor/hiless.js'
                     // '<%= d.app %>/vendor/highlight.pack.js'
                 ], dest: '<%= d.app %>/temp/vendor.js'
             },
@@ -167,6 +168,24 @@ module.exports = function(grunt) {
                 },
                 upload: [
                     { src: 'dist/*', dest: '', gzip: true },
+                    { src: 'dist/posts/*', dest: 'posts', gzip: true },
+                    { src: 'dist/reading/*', dest: 'reading', gzip: true },
+                    { src: 'dist/about/*', dest: 'about', gzip: true },
+                    { src: 'dist/img/*', dest: 'img' }
+                ]
+            },
+
+            prod: {
+                options: {
+                    encodePaths: true,
+                    bucket: 'www.drryl.com',
+                    access: 'public-read'
+                },
+                upload: [
+                    { src: 'dist/*', dest: '', gzip: true },
+                    { src: 'dist/posts/index.html', dest: 'posts', gzip: true },
+                    { src: 'dist/reading/index.html', dest: 'reading', gzip: true },
+                    { src: 'dist/about/index.html', dest: 'about', gzip: true },
                     { src: 'dist/img/*', dest: 'img' }
                 ]
             },
@@ -255,7 +274,8 @@ module.exports = function(grunt) {
 
     grunt.registerTask( 'server',  [ 'connect', 'watch' ]);
     
-    grunt.registerTask( 'pushdev', [ 'build:prod', 's3:dev' ]);
+    grunt.registerTask( 'pushdev',  [ 'build:prod', 's3:dev' ]);
+    grunt.registerTask( 'pushprod', [ 'build:prod', 's3:prod' ]);
 
     grunt.registerTask( 'default', [ 'build:dev', 'server' ]);
 

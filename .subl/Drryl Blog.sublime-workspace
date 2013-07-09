@@ -547,7 +547,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/responsive.less",
 			"settings":
 			{
-				"buffer_size": 1594,
+				"buffer_size": 1602,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/type.less",
 			"settings":
 			{
-				"buffer_size": 1289,
+				"buffer_size": 1293,
 				"line_ending": "Unix"
 			}
 		},
@@ -587,7 +587,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/footer.less",
 			"settings":
 			{
-				"buffer_size": 278,
+				"buffer_size": 419,
 				"line_ending": "Unix"
 			}
 		},
@@ -600,10 +600,20 @@
 			}
 		},
 		{
+			"contents": "Searching 16 files for \".footer\" (case sensitive)\n\n/Users/derryl/repos/Blog/app/styles/less/footer.less:\n    1: .footer {\n    2      overflow: hidden;\n    3      /*background: rgba(255,0,0,0.2);*/\n\n/Users/derryl/repos/Blog/app/styles/less/layout.less:\n   67  }\n   68  \n   69: .footer, .content:after {\n   70      height: @footerHeight;\n   71  }\n\n2 matches across 2 files\n",
+			"settings":
+			{
+				"buffer_size": 371,
+				"line_ending": "Unix",
+				"name": "Find Results",
+				"scratch": true
+			}
+		},
+		{
 			"file": "/Users/derryl/repos/Blog/app/styles/less/code.less",
 			"settings":
 			{
-				"buffer_size": 1721,
+				"buffer_size": 1681,
 				"line_ending": "Unix"
 			}
 		},
@@ -611,7 +621,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/style.less",
 			"settings":
 			{
-				"buffer_size": 266,
+				"buffer_size": 353,
 				"line_ending": "Unix"
 			}
 		},
@@ -619,7 +629,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
 			"settings":
 			{
-				"buffer_size": 786,
+				"buffer_size": 835,
 				"line_ending": "Unix"
 			}
 		},
@@ -627,7 +637,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/page-reading.less",
 			"settings":
 			{
-				"buffer_size": 833,
+				"buffer_size": 919,
 				"line_ending": "Unix"
 			}
 		},
@@ -651,7 +661,7 @@
 			"file": "/Users/derryl/repos/Blog/Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 7674,
+				"buffer_size": 8629,
 				"line_ending": "Unix"
 			}
 		},
@@ -659,7 +669,15 @@
 			"file": "/Users/derryl/repos/Blog/app/_layouts/default.html",
 			"settings":
 			{
-				"buffer_size": 1112,
+				"buffer_size": 925,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/_includes/load_javascript.html",
+			"settings":
+			{
+				"buffer_size": 217,
 				"line_ending": "Unix"
 			}
 		},
@@ -667,7 +685,7 @@
 			"file": "/Users/derryl/repos/Blog/app/_includes/footer.html",
 			"settings":
 			{
-				"buffer_size": 107,
+				"buffer_size": 98,
 				"line_ending": "Unix"
 			}
 		},
@@ -675,15 +693,7 @@
 			"file": "/Users/derryl/repos/Blog/app/_layouts/subpage.html",
 			"settings":
 			{
-				"buffer_size": 1102,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/derryl/repos/Blog/app/reading/index.html",
-			"settings":
-			{
-				"buffer_size": 512,
+				"buffer_size": 915,
 				"line_ending": "Unix"
 			}
 		},
@@ -699,7 +709,23 @@
 			"file": "/Users/derryl/repos/Blog/app/index.html",
 			"settings":
 			{
-				"buffer_size": 630,
+				"buffer_size": 681,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/reading/index.html",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/about/index.html",
+			"settings":
+			{
+				"buffer_size": 729,
 				"line_ending": "Unix"
 			}
 		},
@@ -707,7 +733,7 @@
 			"file": "/Users/derryl/repos/Blog/app/_layouts/post.html",
 			"settings":
 			{
-				"buffer_size": 1061,
+				"buffer_size": 1101,
 				"line_ending": "Unix"
 			}
 		},
@@ -739,7 +765,23 @@
 			"file": "/Users/derryl/repos/Blog/Rakefile",
 			"settings":
 			{
-				"buffer_size": 3624,
+				"buffer_size": 3673,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/coffee/main.coffee",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/app/vendor/hiless.js",
+			"settings":
+			{
+				"buffer_size": 3215,
 				"line_ending": "Unix"
 			}
 		},
@@ -1019,6 +1061,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".footer",
+			"first_post",
 			"CONFIG['posts']",
 			"@lightText",
 			"version",
@@ -1144,9 +1188,7 @@
 			"header-content",
 			"meta",
 			"top-left",
-			"inline",
-			"border-radius",
-			"footer"
+			"inline"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1292,7 +1334,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 11,
 			"sheets":
 			[
 				{
@@ -1333,8 +1375,8 @@
 						"selection":
 						[
 							[
-								245,
-								245
+								238,
+								244
 							]
 						],
 						"settings":
@@ -1342,7 +1384,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 151.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1359,8 +1401,8 @@
 						"selection":
 						[
 							[
-								1426,
-								1307
+								757,
+								757
 							]
 						],
 						"settings":
@@ -1370,7 +1412,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 859.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1380,15 +1422,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/responsive.less",
 					"settings":
 					{
-						"buffer_size": 1594,
+						"buffer_size": 1602,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1586,
-								1586
+								1073,
+								1073
 							]
 						],
 						"settings":
@@ -1398,7 +1440,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 280.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1415,8 +1457,8 @@
 						"selection":
 						[
 							[
-								1170,
-								1157
+								875,
+								875
 							]
 						],
 						"settings":
@@ -1426,7 +1468,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 320.0,
+						"translation.y": 119.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1464,15 +1506,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/type.less",
 					"settings":
 					{
-						"buffer_size": 1289,
+						"buffer_size": 1293,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1026,
-								1026
+								1141,
+								1141
 							]
 						],
 						"settings":
@@ -1482,7 +1524,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 933.0,
+						"translation.y": 1041.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1499,8 +1541,8 @@
 						"selection":
 						[
 							[
-								990,
-								990
+								1230,
+								1230
 							]
 						],
 						"settings":
@@ -1510,7 +1552,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 695.0,
+						"translation.y": 680.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1520,15 +1562,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/footer.less",
 					"settings":
 					{
-						"buffer_size": 278,
+						"buffer_size": 419,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								270,
-								270
+								342,
+								342
 							]
 						],
 						"settings":
@@ -1555,8 +1597,8 @@
 						"selection":
 						[
 							[
-								590,
-								614
+								1766,
+								1766
 							]
 						],
 						"settings":
@@ -1566,25 +1608,73 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 400.0,
+						"translation.y": 1574.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 10,
+					"settings":
+					{
+						"buffer_size": 371,
+						"regions":
+						{
+							"match":
+							{
+								"flags": 112,
+								"regions":
+								[
+									[
+										112,
+										119
+									],
+									[
+										276,
+										283
+									]
+								],
+								"scope": ""
+							}
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"detect_indentation": false,
+							"output_tag": 1,
+							"result_base_dir": "",
+							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
+							"result_line_regex": "^ +([0-9]+):",
+							"scroll_past_end": true,
+							"syntax": "Packages/Default/Find Results.hidden-tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
 					"file": "/Users/derryl/repos/Blog/app/styles/less/code.less",
 					"settings":
 					{
-						"buffer_size": 1721,
+						"buffer_size": 1681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								73,
-								68
+								111,
+								111
 							]
 						],
 						"settings":
@@ -1600,47 +1690,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "/Users/derryl/repos/Blog/app/styles/less/style.less",
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 353,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/LESS/LESS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
-					"settings":
-					{
-						"buffer_size": 786,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								189,
-								189
+								353,
+								353
 							]
 						],
 						"settings":
@@ -1657,18 +1719,18 @@
 				},
 				{
 					"buffer": 13,
-					"file": "/Users/derryl/repos/Blog/app/styles/less/page-reading.less",
+					"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
 					"settings":
 					{
-						"buffer_size": 833,
+						"buffer_size": 835,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1685,6 +1747,34 @@
 				},
 				{
 					"buffer": 14,
+					"file": "/Users/derryl/repos/Blog/app/styles/less/page-reading.less",
+					"settings":
+					{
+						"buffer_size": 919,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								514,
+								514
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
 					"file": "/Users/derryl/repos/Blog/app/styles/less/page-about.less",
 					"settings":
 					{
@@ -1712,7 +1802,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "/Users/derryl/repos/Blog/app/styles/less/errors.less",
 					"settings":
 					{
@@ -1742,23 +1832,23 @@
 			]
 		},
 		{
-			"selected": 11,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "/Users/derryl/repos/Blog/Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 7674,
+						"buffer_size": 8629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4740,
-								4740
+								2532,
+								2532
 							]
 						],
 						"settings":
@@ -1768,25 +1858,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3978.0,
+						"translation.y": 1268.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "/Users/derryl/repos/Blog/app/_layouts/default.html",
 					"settings":
 					{
-						"buffer_size": 1112,
+						"buffer_size": 925,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								414,
-								389
+								454,
+								420
 							]
 						],
 						"settings":
@@ -1796,25 +1886,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 193.0,
+						"translation.y": 190.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 18,
-					"file": "/Users/derryl/repos/Blog/app/_includes/footer.html",
+					"buffer": 19,
+					"file": "/Users/derryl/repos/Blog/app/_includes/load_javascript.html",
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								23,
-								23
+								217,
+								217
 							]
 						],
 						"settings":
@@ -1828,47 +1918,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
-					"file": "/Users/derryl/repos/Blog/app/_layouts/subpage.html",
-					"settings":
-					{
-						"buffer_size": 1102,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								404,
-								404
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 266.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
 					"buffer": 20,
-					"file": "/Users/derryl/repos/Blog/app/reading/index.html",
+					"file": "/Users/derryl/repos/Blog/app/_includes/footer.html",
 					"settings":
 					{
-						"buffer_size": 512,
+						"buffer_size": 98,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								77,
+								77
 							]
 						],
 						"settings":
@@ -1883,6 +1945,34 @@
 				},
 				{
 					"buffer": 21,
+					"file": "/Users/derryl/repos/Blog/app/_layouts/subpage.html",
+					"settings":
+					{
+						"buffer_size": 915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								444,
+								444
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 46.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
 					"file": "/Users/derryl/repos/Blog/app/_config.yml",
 					"settings":
 					{
@@ -1908,47 +1998,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "/Users/derryl/repos/Blog/app/index.html",
 					"settings":
 					{
-						"buffer_size": 630,
+						"buffer_size": 681,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								272,
-								272
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 44.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "/Users/derryl/repos/Blog/app/_layouts/post.html",
-					"settings":
-					{
-						"buffer_size": 1061,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								67,
-								117
+								37,
+								37
 							]
 						],
 						"settings":
@@ -1965,6 +2027,88 @@
 				},
 				{
 					"buffer": 24,
+					"file": "/Users/derryl/repos/Blog/app/reading/index.html",
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								242,
+								242
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 16.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/Users/derryl/repos/Blog/app/about/index.html",
+					"settings":
+					{
+						"buffer_size": 729,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/Users/derryl/repos/Blog/app/_layouts/post.html",
+					"settings":
+					{
+						"buffer_size": 1101,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								630,
+								630
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 245.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
 					"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_stacked.html",
 					"settings":
 					{
@@ -1990,7 +2134,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 28,
 					"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_compact.html",
 					"settings":
 					{
@@ -2018,7 +2162,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 29,
 					"file": "/Users/derryl/repos/Blog/app/error.html",
 					"settings":
 					{
@@ -2044,19 +2188,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 30,
 					"file": "/Users/derryl/repos/Blog/Rakefile",
 					"settings":
 					{
-						"buffer_size": 3624,
+						"buffer_size": 3673,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2794,
-								2794
+								134,
+								134
 							]
 						],
 						"settings":
@@ -2066,13 +2210,67 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1380.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 31,
+					"file": "/Users/derryl/repos/Blog/app/coffee/main.coffee",
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								43,
+								43
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/Syntaxes/CoffeeScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 32,
+					"file": "/Users/derryl/repos/Blog/app/vendor/hiless.js",
+					"settings":
+					{
+						"buffer_size": 3215,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3215,
+								3215
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1057.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 33,
 					"file": "/Users/derryl/repos/Blog/app/_plugins/excerpt.rb",
 					"settings":
 					{
@@ -2136,7 +2334,7 @@
 		"rows":
 		[
 			0.0,
-			0.237969395113,
+			0.490120321399,
 			1.0
 		]
 	},
@@ -2157,11 +2355,19 @@
 		[
 			[
 				"",
-				"/Users/derryl/repos/Blog/app/styles/less/variables.less"
+				"/Users/derryl/repos/Blog/Gruntfile.js"
+			],
+			[
+				"foot",
+				"/Users/derryl/repos/Blog/app/styles/less/footer.less"
+			],
+			[
+				"type",
+				"/Users/derryl/repos/Blog/app/styles/less/type-mixins.less"
 			],
 			[
 				"read",
-				"/Users/derryl/repos/Blog/app/styles/less/page-reading.less"
+				"/Users/derryl/repos/Blog/app/reading/index.html"
 			],
 			[
 				"lay",
@@ -2202,10 +2408,6 @@
 			[
 				"mo",
 				"/Users/derryl/repos/rewards/app/styles/source/modals.less"
-			],
-			[
-				"type",
-				"/Users/derryl/repos/rewards/app/styles/source/type.less"
 			],
 			[
 				"el",
@@ -2402,10 +2604,6 @@
 			[
 				"p",
 				"/Users/derryl/repos/TestFlight/web/settings/pipeline_assets.py"
-			],
-			[
-				"foot",
-				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/footer.less"
 			],
 			[
 				"layou",

@@ -1,4 +1,4 @@
 $ ->
-    $('pre').addClass('prettyprint')
-    prettyPrint()
+    # $('pre').addClass('prettyprint')
+    # prettyPrint()
     # hljs.initHighlighting();

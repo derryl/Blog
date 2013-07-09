@@ -1,14 +1,18 @@
 .footer {
+    border-top: 1px solid darken(@white, 5%);
     overflow: hidden;
     /*background: rgba(255,0,0,0.2);*/
     /*padding-bottom: @lineHeight/2;*/
     p {
-        margin-top: 0.3em;
+        display: block;
+        margin: 0;
+        /*margin-top: 0.6em;*/
         .align-center;
-        .sans-serif;
+        .headline;
 
-        font-size: 0.9em;
+        font-size: 0.8em;
+        line-height: @footerHeight;
         font-weight: bold;
-        color: @mediumGrey;
+        color: lighten(@mediumGrey, 20%);
     }
 }
