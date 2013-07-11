@@ -661,7 +661,15 @@
 			"file": "/Users/derryl/repos/Blog/Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 8629,
+				"buffer_size": 8980,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/derryl/repos/Blog/package.json",
+			"settings":
+			{
+				"buffer_size": 1043,
 				"line_ending": "Unix"
 			}
 		},
@@ -1673,8 +1681,8 @@
 						"selection":
 						[
 							[
-								111,
-								111
+								206,
+								188
 							]
 						],
 						"settings":
@@ -1684,7 +1692,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1840,15 +1848,15 @@
 					"file": "/Users/derryl/repos/Blog/Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 8629,
+						"buffer_size": 8980,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2532,
-								2532
+								8496,
+								8496
 							]
 						],
 						"settings":
@@ -1858,13 +1866,41 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1268.0,
+						"translation.y": 4135.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 18,
+					"file": "/Users/derryl/repos/Blog/package.json",
+					"settings":
+					{
+						"buffer_size": 1043,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1006,
+								1026
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 19,
 					"file": "/Users/derryl/repos/Blog/app/_layouts/default.html",
 					"settings":
 					{
@@ -1892,7 +1928,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "/Users/derryl/repos/Blog/app/_includes/load_javascript.html",
 					"settings":
 					{
@@ -1904,7 +1940,7 @@
 						[
 							[
 								217,
-								217
+								0
 							]
 						],
 						"settings":
@@ -1918,7 +1954,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 21,
 					"file": "/Users/derryl/repos/Blog/app/_includes/footer.html",
 					"settings":
 					{
@@ -1944,7 +1980,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 22,
 					"file": "/Users/derryl/repos/Blog/app/_layouts/subpage.html",
 					"settings":
 					{
@@ -1972,7 +2008,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 23,
 					"file": "/Users/derryl/repos/Blog/app/_config.yml",
 					"settings":
 					{
@@ -1998,7 +2034,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 24,
 					"file": "/Users/derryl/repos/Blog/app/index.html",
 					"settings":
 					{
@@ -2026,7 +2062,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 25,
 					"file": "/Users/derryl/repos/Blog/app/reading/index.html",
 					"settings":
 					{
@@ -2052,7 +2088,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 26,
 					"file": "/Users/derryl/repos/Blog/app/about/index.html",
 					"settings":
 					{
@@ -2080,7 +2116,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 27,
 					"file": "/Users/derryl/repos/Blog/app/_layouts/post.html",
 					"settings":
 					{
@@ -2108,7 +2144,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 28,
 					"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_stacked.html",
 					"settings":
 					{
@@ -2134,7 +2170,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 29,
 					"file": "/Users/derryl/repos/Blog/app/_includes/top_nav_compact.html",
 					"settings":
 					{
@@ -2162,7 +2198,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 30,
 					"file": "/Users/derryl/repos/Blog/app/error.html",
 					"settings":
 					{
@@ -2188,7 +2224,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 31,
 					"file": "/Users/derryl/repos/Blog/Rakefile",
 					"settings":
 					{
@@ -2216,7 +2252,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 31,
+					"buffer": 32,
 					"file": "/Users/derryl/repos/Blog/app/coffee/main.coffee",
 					"settings":
 					{
@@ -2242,7 +2278,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 32,
+					"buffer": 33,
 					"file": "/Users/derryl/repos/Blog/app/vendor/hiless.js",
 					"settings":
 					{
@@ -2270,7 +2306,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 33,
+					"buffer": 34,
 					"file": "/Users/derryl/repos/Blog/app/_plugins/excerpt.rb",
 					"settings":
 					{
@@ -2334,7 +2370,7 @@
 		"rows":
 		[
 			0.0,
-			0.490120321399,
+			0.1116890473,
 			1.0
 		]
 	},

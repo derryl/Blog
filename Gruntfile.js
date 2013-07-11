@@ -127,6 +127,17 @@ module.exports = function(grunt) {
             }
         },
 
+        replace: {
+            fix_mdash: {
+                src: ['<%= d.app %>/**/*.html'],
+                overwrite: true,
+                replacements: [{
+                    from: /–/g,
+                    to: '&mdash;'
+                }]
+            }
+        },
+
         // Compress HTML templates (strips whitespace, comments, etc.)
         htmlcompressor: {
             dist: {
@@ -238,6 +249,8 @@ module.exports = function(grunt) {
     }); // end .initConfig()
 
 
+    // &mdash;
+
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-htmlcompressor');
     grunt.loadNpmTasks('grunt-contrib-concat');
@@ -248,6 +261,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-less');
+    grunt.loadNpmTasks('grunt-text-replace');
     grunt.loadNpmTasks('grunt-jekyll');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-s3');
@@ -262,6 +276,7 @@ module.exports = function(grunt) {
         'coffee',
         'concat',
         'cssmin',
+        'replace',
         'clean:post'
     ]);
 
