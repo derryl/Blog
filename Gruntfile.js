@@ -231,8 +231,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-text-replace');
     grunt.loadNpmTasks('grunt-jekyll');
     grunt.loadNpmTasks('grunt-shell');
-    grunt.loadNpmTasks('grunt-s3');
-
+    // grunt.loadNpmTasks('grunt-s3');
     // Trying alternate S3 library
     grunt.loadNpmTasks('grunt-aws-s3');
 
