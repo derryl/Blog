@@ -55,7 +55,7 @@ module.exports = function(grunt) {
             dist: {
                 files: [{ 
                     expand: true,
-                    src: ['**'],
+                    src: ['**','!**/*.html','!**/*.css','!**/*.js','!**/img/portfolio/**','!**/img/old/**','!**/fonts/**'],
                     cwd: '<%= d.app %>', 
                     dest: '<%= d.dist %>'
                 }]
@@ -147,9 +147,9 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= d.dist %>',
+                    cwd: '<%= d.app %>',
                     src: '{,*/}*.html',
-                    dest: '<%= d.dist %>'
+                    dest: '<%= d.app %>'
                 }]
             }
         },
@@ -158,9 +158,41 @@ module.exports = function(grunt) {
         uglify: {
             dist: {
                 files: {
-                    '<%= d.dist %>/app.js': ['<%= d.dist %>/app.js']
+                    '<%= d.app %>/app.js': ['<%= d.app %>/app.js']
                 }
             }
+        },
+
+        aws_s3: {
+            options: {
+                accessKeyId:     '<%= aws.key %>',
+                secretAccessKey: '<%= aws.secret %>',
+                region: 'us-east-1',
+                concurrency: 15
+            },
+            staging_gzipped: {
+                options: {
+                    bucket: 'dev.drryl.com',
+                    params: { ContentEncoding: 'gzip' }
+                },
+                files: [
+                    { expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}
+                ]
+            },
+            staging_others: {
+                options: {
+                    bucket: 'dev.drryl.com'
+                },
+                files: [
+                    { expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}
+                ]
+            }
+        },
+
+        compress: {
+            html: { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.html'], ext: '.html' },
+            css:  { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.css'], ext: '.min.css' },
+            js:   { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.js'], ext: '.js' }
         },
 
         // Deployment tasks
@@ -253,6 +285,7 @@ module.exports = function(grunt) {
 
     grunt.loadNpmTasks('grunt-contrib-connect');
     grunt.loadNpmTasks('grunt-htmlcompressor');
+    grunt.loadNpmTasks('grunt-contrib-compress'); // gzipping files
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-coffee');
@@ -265,6 +298,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-jekyll');
     grunt.loadNpmTasks('grunt-shell');
     grunt.loadNpmTasks('grunt-s3');
+
+    // Trying alternate S3 library
+    grunt.loadNpmTasks('grunt-aws-s3');
 
 
 
@@ -284,12 +320,15 @@ module.exports = function(grunt) {
         'build:dev',
         'copy:dist',
         'htmlcompressor',
-        'uglify'
+        'uglify',
+        'compress'
     ]);
 
     grunt.registerTask( 'server',  [ 'connect', 'watch' ]);
+
+    grunt.registerTask( 's3_staging', ['aws_s3:staging_gzipped', 'aws_s3:staging_others']);
     
-    grunt.registerTask( 'pushdev',  [ 'build:prod', 's3:dev' ]);
+    grunt.registerTask( 'pushdev',  [ 'build:prod', 's3_staging' ]);
     grunt.registerTask( 'pushprod', [ 'build:prod', 's3:prod' ]);
 
     grunt.registerTask( 'default', [ 'build:dev', 'server' ]);

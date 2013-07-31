@@ -44,7 +44,7 @@ module JB
 end #JB
 
 # Usage: rake post title="A Title" [date="2012-02-09"] [tags=[tag1, tag2]]
-desc "Begin a new post in #{CONFIG['posts']}"
+desc "Usage: rake post title='FooBar'"
 task :post do
   abort("rake aborted: '#{CONFIG['posts']}' directory not found.") unless FileTest.directory?(CONFIG['posts'])
   title = ENV["title"] || "new-post"
@@ -82,7 +82,7 @@ end # task :post
 
 
 # Usage: rake link href="http://www.example.com"
-desc "Begin a new post in #{CONFIG['links']}"
+desc "usage: rake link href='http://www.example.com'"
 task :link do
   abort("rake aborted: '#{CONFIG['links']}' directory not found.") unless FileTest.directory?(CONFIG['links'])
   href = ENV["href"] || ' '

@@ -9,6 +9,12 @@
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="format-detection" content="telephone=no"/>
 <!-- For controlling the "share" photo displayed on Facebook -->
-<meta property="fb:app_id" content="473917729370774" />
-<meta property="og:image"  content="/img/d-logomark.png" />
-<link rel="image_src" href="/img/d-logomark.png" />
+<!--<meta property="fb:app_id" content="566180293446744" />-->
+<meta property="og:type"  content="article">
+<meta property="og:image" content="http://www.drryl.com/img/d-logomark-retina.png">
+<meta property="twitter:card"  content="summary">
+<meta property="twitter:image" content="http://www.drryl.com/img/d-logomark-retina.png">
+{{ if page.title }}
+<meta property="og:title" content="{{ page.title }}">
+<meta property="twitter:title" content="{{ page.title }}">
+{{ endif }}
