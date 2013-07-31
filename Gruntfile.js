@@ -186,6 +186,23 @@ module.exports = function(grunt) {
                 files: [
                     { expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}
                 ]
+            },
+            prod_gzipped: {
+                options: {
+                    bucket: 'www.drryl.com',
+                    params: { ContentEncoding: 'gzip' }
+                },
+                files: [
+                    { expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}
+                ]
+            },
+            prodg_others: {
+                options: {
+                    bucket: 'www.drryl.com'
+                },
+                files: [
+                    { expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}
+                ]
             }
         },
 
@@ -193,90 +210,7 @@ module.exports = function(grunt) {
             html: { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.html'], ext: '.html' },
             css:  { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.css'], ext: '.min.css' },
             js:   { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.js'], ext: '.js' }
-        },
-
-        // Deployment tasks
-        s3: {
-            options: {
-                key:    '<%= aws.key %>',
-                secret: '<%= aws.secret %>',
-                access: 'public-read'
-            },
-
-            dev: {
-                options: {
-                    encodePaths: true,
-                    bucket: 'dev.drryl.com',
-                    access: 'public-read'
-                },
-                upload: [
-                    { src: 'dist/*', dest: '', gzip: true },
-                    { src: 'dist/posts/*', dest: 'posts', gzip: true },
-                    { src: 'dist/reading/*', dest: 'reading', gzip: true },
-                    { src: 'dist/about/*', dest: 'about', gzip: true },
-                    { src: 'dist/img/*', dest: 'img' }
-                ]
-            },
-
-            prod: {
-                options: {
-                    encodePaths: true,
-                    bucket: 'www.drryl.com',
-                    access: 'public-read'
-                },
-                upload: [
-                    { src: 'dist/*', dest: '', gzip: true },
-                    { src: 'dist/posts/index.html', dest: 'posts', gzip: true },
-                    { src: 'dist/reading/index.html', dest: 'reading', gzip: true },
-                    { src: 'dist/about/index.html', dest: 'about', gzip: true },
-                    { src: 'dist/img/*', dest: 'img' }
-                ]
-            },
-
-            fonts: {
-                options: {
-                    encodePaths: true,
-                    bucket: 'dev.drryl.com',
-                    access: 'public-read'
-                },
-                upload: [
-                    {
-                        "src": "dist/fonts/*.ttf",
-                        "dest": "fonts",
-                        "gzip": true,
-                        "headers": {
-                            "Cache-Control": "max-age=2629746000",
-                            "Content-Type": "application/x-font-ttf"
-                        }
-                    },{
-                        "src": "dist/fonts/*.otf",
-                        "dest": "fonts",
-                        "gzip": true,
-                        "headers": {
-                            "Cache-Control": "max-age=2629746000",
-                            "Content-Type": "font/opentype"
-                        }
-                    },{
-                        "src": "dist/fonts/*.woff",
-                        "dest": "fonts",
-                        "gzip": true,
-                        "headers": {
-                            "Cache-Control": "max-age=2629746000",
-                            "Content-Type": "application/font-woff"
-                        }
-                    },{
-                        "src": "dist/fonts/*.svg",
-                        "dest": "fonts",
-                        "gzip": true,
-                        "headers": {
-                            "Cache-Control": "max-age=2629746000",
-                            "Content-Type": "image/svg+xml"
-                        }
-                    }
-                ]
-            }
-
-        } // end s3
+        }
 
     }); // end .initConfig()
 
