@@ -128,12 +128,15 @@ module.exports = function(grunt) {
         },
 
         replace: {
-            fix_mdash: {
+            special_characters: {
                 src: ['<%= d.app %>/**/*.html'],
                 overwrite: true,
                 replacements: [{
                     from: /–/g,
                     to: '&mdash;'
+                },{
+                    from: /…/g,
+                    to: '&hellip;'
                 }]
             }
         },
@@ -171,38 +174,38 @@ module.exports = function(grunt) {
                 concurrency: 15
             },
             staging_gzipped: {
-                options: {
+                options: { 
                     bucket: 'dev.drryl.com',
-                    params: { ContentEncoding: 'gzip' }
+                    params: { 
+                        ContentEncoding: 'gzip',
+                        CacheControl: 'max-age=60'
+                    }
                 },
-                files: [
-                    { expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}
-                ]
+                files: [{ expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}]
             },
             staging_others: {
-                options: {
-                    bucket: 'dev.drryl.com'
+                options: { 
+                    bucket: 'dev.drryl.com',
+                    params: { CacheControl: 'max-age=60'}
                 },
-                files: [
-                    { expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}
-                ]
+                files: [{ expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}]
             },
             prod_gzipped: {
-                options: {
+                options: { 
                     bucket: 'www.drryl.com',
-                    params: { ContentEncoding: 'gzip' }
+                    params: { 
+                        ContentEncoding: 'gzip',
+                        CacheControl: 'max-age=3600' // text files cached for 1 hour
+                    }
                 },
-                files: [
-                    { expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}
-                ]
+                files: [{ expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}]
             },
             prod_others: {
-                options: {
-                    bucket: 'www.drryl.com'
+                options: { 
+                    bucket: 'www.drryl.com',
+                    params: { CacheControl: 'max-age=604800' } // everything else cached for 1 week
                 },
-                files: [
-                    { expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}
-                ]
+                files: [{ expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}]
             }
         },
 
