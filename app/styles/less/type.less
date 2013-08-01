@@ -39,7 +39,7 @@ h3 {
 
 p {
     .sans-serif;
-    text-align:  justify;
+    text-align:  left;
     font-size:   1.2em;
     line-height: 1.62em;
     margin-bottom: 1.62em;
@@ -50,6 +50,9 @@ p {
     }
     &.smaller {
         font-size: 0.9em;
+    }
+    @media @biggish {
+        text-align:  justify;
     }
 }
 
@@ -91,4 +94,6 @@ strong, em {
 }
 @media @tiny {
     p { font-size: 1.4em; }
+    article ul { font-size: 1.3em; padding-left: 2em; margin-bottom: 1.6em; }
+    article li { margin-bottom: 0.5em; }
 }
