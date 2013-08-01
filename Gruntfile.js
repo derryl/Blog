@@ -196,7 +196,7 @@ module.exports = function(grunt) {
                     { expand: true, cwd: 'dist/', src: ['**/*.html','**/*.css','**/*.js'], dest: ''}
                 ]
             },
-            prodg_others: {
+            prod_others: {
                 options: {
                     bucket: 'www.drryl.com'
                 },
@@ -260,9 +260,10 @@ module.exports = function(grunt) {
     grunt.registerTask( 'server',  [ 'connect', 'watch' ]);
 
     grunt.registerTask( 's3_staging', ['aws_s3:staging_gzipped', 'aws_s3:staging_others']);
+    grunt.registerTask( 's3_prod', ['aws_s3:prod_gzipped', 'aws_s3:prod_others']);
     
     grunt.registerTask( 'pushdev',  [ 'build:prod', 's3_staging' ]);
-    grunt.registerTask( 'pushprod', [ 'build:prod', 's3:prod' ]);
+    grunt.registerTask( 'pushprod', [ 'build:prod', 's3_prod' ]);
 
     grunt.registerTask( 'default', [ 'build:dev', 'server' ]);
 
