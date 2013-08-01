@@ -1,20 +1,42 @@
-<meta name="title" content="Derryl Carter">
+
+<!-- Basic metadata -->
 <meta name="author" content="Derryl Carter"/>
-<meta name="description" content="Musings on code, life, etc.">
 <meta name="keywords" content="Derryl Carter, Drryl, interface design, web app design, ui design, web designer, front-end dev, TestFlight, startup, santa monica, CSS3, HTML5, backbone, underscore, zepto, jquery,"/>
 <link rel="icon" href="/favicon.ico">
+
+<!-- Mobile meta tags -->
 <meta content="True" name="HandheldFriendly"/>
 <meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport"/>
 <meta name="apple-touch-fullscreen" content="yes"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="format-detection" content="telephone=no"/>
-<!-- For controlling the "share" photo displayed on Facebook -->
-<!--<meta property="fb:app_id" content="566180293446744" />-->
-<meta property="og:type"  content="article">
-<meta property="og:image" content="http://www.drryl.com/img/d-logomark-retina.png">
-<meta property="twitter:card"  content="summary">
-<meta property="twitter:image" content="http://www.drryl.com/img/d-logomark-retina.png">
-{{ if page.title }}
-<meta property="og:title" content="{{ page.title }}">
-<meta property="twitter:title" content="{{ page.title }}">
+
+<!-- Metadata for sharing content (Google, Facebook, Twitter, etc) -->
+<meta property="og:type" content="article"/>
+<meta property="og:image" content="http://www.drryl.com/img/share_image.png"/>
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:image" content="http://www.drryl.com/img/share_image.png"/>
+<meta name="twitter:site" content="_Derryl"/>
+<meta name="twitter:site:id" content="326315596"/>
+
+<!-- Page title -->
+{{ if page.title and page.title != 'Drryl' }}
+	<title>Drryl | {{ page.title }}</title>
+	<meta property="og:title" content="{{ page.title }}"/>
+	<meta name="twitter:title" content="{{ page.title }}"/>
+{{ else }}
+	<title>Drryl | A blog about nothing</title>
+	<meta property="og:title" content="Drryl | A blog about nothing"/>
+	<meta name="twitter:title" content="Drryl | A blog about nothing"/>
+{{ endif }}
+
+<!-- Page description -->
+{{ if page.description and page.description != '' }}
+	<meta name="description" content="{{ page.description }}"/>
+	<meta name="twitter:description" content="{{ page.description }}"/>
+	<meta property="og:description" content="{{ page.description }}"/>
+{{ else }}
+	<meta name="description" content="Assorted ramblings about programming, life, etc."/>
+	<meta name="twitter:description" content="Assorted ramblings about programming, life, etc."/>
+	<meta property="og:description" content="Assorted ramblings about programming, life, etc."/>
 {{ endif }}
