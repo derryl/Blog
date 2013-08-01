@@ -2,7 +2,7 @@
 
 layout: post
 title: "Automated Testing for Designers"
-description: ""
+description: "Software engineers can test their code, why can't designers test their creations as well?"
 category: editorial
 tags: []
 
