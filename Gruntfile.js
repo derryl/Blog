@@ -6,38 +6,41 @@ module.exports = function(grunt) {
         'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=3600000'
     };
 
-    var d = {
+    var config = {
 
         source: 'app',    // source files
-        app:    'public', // build location for dev
+        local:  'public', // build location for dev
         dist:   'dist',   // build location for distribution
 
-        dev_bucket:  'dev.drryl.com',
-        prod_bucket: 'www.drryl.com',
+        // S3 Bucket locations
+        staging:    'dev.drryl.com',
+        production: 'www.drryl.com',
+        media:      'media.drryl.com',
 
         // LiveReload default is 35729, customizing this avoids
         // "Port in use" conflicts from the standalone app
-        liveReloadPort: 8788
+        liveReloadPort: 8788,
+
+        aws: grunt.file.readJSON('config/grunt-aws.json')
                             
     };
 
     grunt.initConfig({
 
-        d: d,
-
-        aws: grunt.file.readJSON('config/grunt-aws.json'),
+        src:   config.source,
+        local: config.local,
+        dist:  config.dist,
+        aws: config.aws,
 
         clean: {
-            prep: [
-                '<%= d.app %>',
-                '<%= d.dist %>'
-            ],
-            post: [
-                '<%= d.app %>/styles',     '<%= d.dist %>/styles',
-                '<%= d.app %>/vendor',     '<%= d.dist %>/vendor',
-                '<%= d.app %>/coffee',     '<%= d.dist %>/coffee',
-                '<%= d.app %>/temp',       '<%= d.dist %>/temp',
-                '<%= d.app %>/master.css', '<%= d.dist %>/master.css'
+            local: ['<%= local %>'],
+            dist:  ['<%= dist %>'],
+            postbuild: [
+                '<%= local %>/styles',     '<%= dist %>/styles',
+                '<%= local %>/vendor',     '<%= dist %>/vendor',
+                '<%= local %>/coffee',     '<%= dist %>/coffee',
+                '<%= local %>/temp',       '<%= dist %>/temp',
+                '<%= local %>/master.css', '<%= dist %>/master.css'
             ]
         },
 
@@ -45,8 +48,8 @@ module.exports = function(grunt) {
         // Markdown & HTML snippets into fully-rendered templates
         jekyll: {
             build: { 
-                src: '<%= d.source %>',
-                dest: '<%= d.app %>'
+                src: '<%= src %>',
+                dest: '<%= local %>'
             }
         },
 
@@ -56,8 +59,8 @@ module.exports = function(grunt) {
                 files: [{ 
                     expand: true,
                     src: ['**','!**/*.html','!**/*.css','!**/*.js','!**/img/portfolio/**','!**/img/old/**','!**/fonts/**'],
-                    cwd: '<%= d.app %>', 
-                    dest: '<%= d.dist %>'
+                    cwd: '<%= local %>', 
+                    dest: '<%= dist %>'
                 }]
             }
         },
@@ -67,7 +70,7 @@ module.exports = function(grunt) {
             server: {
                 options: {
                     port: 7000,
-                    base: '<%= d.app %>'
+                    base: '<%= local %>'
                 }
             }
         },
@@ -75,7 +78,7 @@ module.exports = function(grunt) {
         // Whenever a source file changes,
         // kick off a dev build and trigger LiveReload
         watch: {
-            files: ['<%= d.source %>/**'],
+            files: ['<%= src %>/**'],
             tasks: ['build:dev'],
             options: { livereload: true }
         },
@@ -84,17 +87,17 @@ module.exports = function(grunt) {
             // Concat all global JavaScript (libraries, core, etc.)
             libs: {
                 src: [
-                    '<%= d.app %>/vendor/zepto.min.js',
-                    '<%= d.app %>/vendor/prettify.js',
-                    '<%= d.app %>/vendor/hiless.js'
-                    // '<%= d.app %>/vendor/highlight.pack.js'
-                ], dest: '<%= d.app %>/temp/vendor.js'
+                    '<%= local %>/vendor/zepto.min.js',
+                    '<%= local %>/vendor/prettify.js',
+                    '<%= local %>/vendor/hiless.js'
+                    // '<%= local %>/vendor/highlight.pack.js'
+                ], dest: '<%= local %>/temp/vendor.js'
             },
             app: {
                 src: [
-                    '<%= d.app %>/temp/vendor.js',
-                    '<%= d.app %>/temp/main.js'
-                ], dest: '<%= d.app %>/app.js'
+                    '<%= local %>/temp/vendor.js',
+                    '<%= local %>/temp/main.js'
+                ], dest: '<%= local %>/app.js'
             }
         },
 
@@ -102,7 +105,7 @@ module.exports = function(grunt) {
         less: {
             master: {
                 files: {
-                    '<%= d.app %>/master.css': '<%= d.app %>/styles/master.less'
+                    '<%= local %>/master.css': '<%= local %>/styles/master.less'
                 }
             }
         },
@@ -111,7 +114,7 @@ module.exports = function(grunt) {
         coffee: {
             app: {
                 files: {
-                    '<%= d.app %>/temp/main.js': '<%= d.app %>/coffee/main.coffee'
+                    '<%= local %>/temp/main.js': '<%= local %>/coffee/main.coffee'
                 }
             }
         },
@@ -120,23 +123,28 @@ module.exports = function(grunt) {
         cssmin: {
             site: {
                 expand: true,
-                cwd: '<%= d.app %>',
+                cwd: '<%= local %>',
                 src: ['master.css'],
-                dest: '<%= d.app %>',
+                dest: '<%= local %>',
                 ext: '.min.css'
             }
         },
 
         replace: {
-            special_characters: {
-                src: ['<%= d.app %>/**/*.html'],
+            special_chars: {
+                src: ['<%= local %>/**/*.html'],
+                overwrite: true,
+                replacements: [
+                    { from: /–/g, to: '&mdash;'},
+                    { from: /…/g, to: '&hellip;'}
+                ]
+            },
+            cloudfront_links: {
+                src: ['<%= local %>/*.css'],
                 overwrite: true,
                 replacements: [{
-                    from: /–/g,
-                    to: '&mdash;'
-                },{
-                    from: /…/g,
-                    to: '&hellip;'
+                    from: /\/img/g,
+                    to: 'http://d2hi2nhy60x4d5.cloudfront.net/img'
                 }]
             }
         },
@@ -150,9 +158,9 @@ module.exports = function(grunt) {
                 },
                 files: [{
                     expand: true,
-                    cwd: '<%= d.app %>',
+                    cwd: '<%= local %>',
                     src: '{,*/}*.html',
-                    dest: '<%= d.app %>'
+                    dest: '<%= local %>'
                 }]
             }
         },
@@ -161,7 +169,7 @@ module.exports = function(grunt) {
         uglify: {
             dist: {
                 files: {
-                    '<%= d.app %>/app.js': ['<%= d.app %>/app.js']
+                    '<%= local %>/app.js': ['<%= local %>/app.js']
                 }
             }
         },
@@ -188,7 +196,7 @@ module.exports = function(grunt) {
                     bucket: 'dev.drryl.com',
                     params: { CacheControl: 'max-age=60'}
                 },
-                files: [{ expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}]
+                files: [{ expand: true, cwd: 'dist/', src: ['**','!**/img/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}]
             },
             prod_gzipped: {
                 options: { 
@@ -205,7 +213,14 @@ module.exports = function(grunt) {
                     bucket: 'www.drryl.com',
                     params: { CacheControl: 'max-age=604800' } // everything else cached for 1 week
                 },
-                files: [{ expand: true, cwd: 'dist/', src: ['**','!**/img/portfolio/**','!**/img/old/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}]
+                files: [{ expand: true, cwd: 'dist/', src: ['**','!**/img/**','!**/*.html','!**/*.css','!**/*.js'], dest: ''}]
+            },
+            media: {
+                options: {
+                    bucket: 'media.drryl.com'
+                    // d2hi2nhy60x4d5.cloudfront.net
+                },
+                files: [{ expand: true, cwd: 'dist/', src: ['img/**'], dest: ''}]
             }
         },
 
@@ -242,18 +257,20 @@ module.exports = function(grunt) {
 
     // Default task(s).
     grunt.registerTask('build:dev', [
-        'clean:prep',
+        'clean:local',
         'jekyll',
         'less',
         'coffee',
         'concat',
         'cssmin',
-        'replace',
-        'clean:post'
+        'replace:special_chars',
+        'clean:postbuild'
     ]);
 
     grunt.registerTask('build:prod', [
         'build:dev',
+        'clean:dist',
+        'replace:cloudfront_links',
         'copy:dist',
         'htmlcompressor',
         'uglify',
@@ -267,6 +284,7 @@ module.exports = function(grunt) {
     
     grunt.registerTask( 'pushdev',  [ 'build:prod', 's3_staging' ]);
     grunt.registerTask( 'pushprod', [ 'build:prod', 's3_prod' ]);
+    grunt.registerTask( 'media',[ 'build:prod', 'aws_s3:media' ]);
 
     grunt.registerTask( 'default', [ 'build:dev', 'server' ]);
 
