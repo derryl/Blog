@@ -228,6 +228,12 @@ module.exports = function(grunt) {
             html: { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.html'], ext: '.html' },
             css:  { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.css'], ext: '.min.css' },
             js:   { options: { mode: 'gzip' }, expand: true, cwd: 'public', dest: 'dist', src: ['**/*.js'], ext: '.js' }
+        },
+
+        shell: {
+            killLR: {
+                command: 'killall -9 LiveReload'
+            }
         }
 
     }); // end .initConfig()
@@ -286,7 +292,7 @@ module.exports = function(grunt) {
     grunt.registerTask( 'pushprod', [ 'build:prod', 's3_prod' ]);
     grunt.registerTask( 'media',[ 'build:prod', 'aws_s3:media' ]);
 
-    grunt.registerTask( 'default', [ 'build:dev', 'server' ]);
+    grunt.registerTask( 'default', [ 'shell:killLR', 'build:dev', 'server' ]);
 
 
     // grunt.registerTask('push', ['build','deploy']);
