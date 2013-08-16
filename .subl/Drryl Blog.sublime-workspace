@@ -523,7 +523,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/master.less",
 			"settings":
 			{
-				"buffer_size": 671,
+				"buffer_size": 752,
 				"line_ending": "Unix"
 			}
 		},
@@ -661,7 +661,7 @@
 			"file": "/Users/derryl/repos/Blog/Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 8287,
+				"buffer_size": 9325,
 				"line_ending": "Unix"
 			}
 		},
@@ -685,7 +685,7 @@
 			"file": "/Users/derryl/repos/Blog/app/_includes/load_javascript.html",
 			"settings":
 			{
-				"buffer_size": 734,
+				"buffer_size": 1336,
 				"line_ending": "Unix"
 			}
 		},
@@ -986,7 +986,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 95.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"*.less",
@@ -1077,6 +1077,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"Google Analytics Alternative",
 			"justify",
 			"{{ page.title }}",
 			"d-logomark-retina",
@@ -1203,8 +1204,7 @@
 			"rgba(0,0,0,1)",
 			"rgba(0,0,0,0)",
 			"small",
-			"past ye",
-			"border-top-left"
+			"past ye"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1358,15 +1358,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/master.less",
 					"settings":
 					{
-						"buffer_size": 671,
+						"buffer_size": 752,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								225,
-								225
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1540,7 +1540,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 401.0,
+						"translation.y": 424.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1852,7 +1852,7 @@
 			]
 		},
 		{
-			"selected": 11,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1860,15 +1860,15 @@
 					"file": "/Users/derryl/repos/Blog/Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 8287,
+						"buffer_size": 9325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8153,
-								8153
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1878,7 +1878,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3739.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1944,25 +1944,26 @@
 					"file": "/Users/derryl/repos/Blog/app/_includes/load_javascript.html",
 					"settings":
 					{
-						"buffer_size": 734,
+						"buffer_size": 1336,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								724,
-								724
+								225,
+								225
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
 							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"translate_tabs_to_spaces": true,
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -2170,17 +2171,14 @@
 						"selection":
 						[
 							[
-								1428,
-								1428
-							],
-							[
-								1497,
-								1497
+								410,
+								410
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage"
+							"syntax": "Packages/Jinja2/Syntaxes/HTML (Jinja Templates).tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -2415,7 +2413,7 @@
 		"rows":
 		[
 			0.0,
-			0.694687229006,
+			0.196187995355,
 			1.0
 		]
 	},
@@ -2435,6 +2433,22 @@
 		"selected_items":
 		[
 			[
+				"grunt",
+				"/Users/derryl/repos/Blog/Gruntfile.js"
+			],
+			[
+				"met",
+				"/Users/derryl/repos/Blog/app/_includes/metadata.html"
+			],
+			[
+				"def",
+				"/Users/derryl/repos/Blog/app/_layouts/default.html"
+			],
+			[
+				"loa",
+				"/Users/derryl/repos/Blog/app/_includes/load_javascript.html"
+			],
+			[
 				"",
 				"/Users/derryl/repos/Blog/app/styles/less/type.less"
 			],
@@ -2451,20 +2465,12 @@
 				"/Users/derryl/repos/Blog/app/styles/less/layout.less"
 			],
 			[
-				"met",
-				"/Users/derryl/repos/Blog/app/_includes/metadata.html"
-			],
-			[
 				"po",
 				"/Users/derryl/repos/Blog/app/_layouts/post.html"
 			],
 			[
 				"sub",
 				"/Users/derryl/repos/Blog/app/_layouts/subpage.html"
-			],
-			[
-				"def",
-				"/Users/derryl/repos/Blog/app/_layouts/default.html"
 			],
 			[
 				"meta",
@@ -2479,16 +2485,8 @@
 				"/Users/derryl/repos/Blog/app/_layouts/post.html"
 			],
 			[
-				"loa",
-				"/Users/derryl/repos/Blog/app/_includes/load_javascript.html"
-			],
-			[
 				"html",
 				"/Users/derryl/repos/Blog/app/_layouts/default.html"
-			],
-			[
-				"grunt",
-				"/Users/derryl/repos/Blog/Gruntfile.js"
 			],
 			[
 				"inde",
