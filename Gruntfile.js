@@ -78,9 +78,21 @@ module.exports = function(grunt) {
         // Whenever a source file changes,
         // kick off a dev build and trigger LiveReload
         watch: {
-            files: ['<%= src %>/**'],
-            tasks: ['build:dev'],
-            options: { livereload: true }
+            html: {
+                files: ['<%= src %>/**'],
+                tasks: ['build:dev'],
+                options: { livereload: true }
+            },
+            coffee: {
+                files: ['<%= src %>/**/*.coffee','<%= src %>/**/*.js'],
+                tasks: ['coffee'],
+                options: { livereload: true }
+            },
+            less: {
+                files: ['<%= src %>/styles/**'],
+                tasks: ['less'],
+                options: { livereload: true }
+            }
         },
 
         concat: {
@@ -114,7 +126,7 @@ module.exports = function(grunt) {
         coffee: {
             app: {
                 files: {
-                    '<%= local %>/temp/main.js': '<%= local %>/coffee/main.coffee'
+                    '/app/main.js': '<%= app %>/coffee/main.coffee'
                 }
             }
         },
@@ -245,6 +257,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-htmlcompressor');
     grunt.loadNpmTasks('grunt-contrib-compress'); // gzipping files
     grunt.loadNpmTasks('grunt-contrib-concat');
+    grunt.loadNpmTasks('grunt-contrib-coffee');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-coffee');
     grunt.loadNpmTasks('grunt-contrib-cssmin');
