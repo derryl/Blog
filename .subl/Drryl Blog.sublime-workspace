@@ -555,7 +555,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/type-mixins.less",
 			"settings":
 			{
-				"buffer_size": 1203,
+				"buffer_size": 1305,
 				"line_ending": "Unix"
 			}
 		},
@@ -571,7 +571,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/type.less",
 			"settings":
 			{
-				"buffer_size": 1481,
+				"buffer_size": 1462,
 				"line_ending": "Unix"
 			}
 		},
@@ -613,7 +613,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/code.less",
 			"settings":
 			{
-				"buffer_size": 1681,
+				"buffer_size": 1703,
 				"line_ending": "Unix"
 			}
 		},
@@ -629,7 +629,7 @@
 			"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
 			"settings":
 			{
-				"buffer_size": 862,
+				"buffer_size": 846,
 				"line_ending": "Unix"
 			}
 		},
@@ -733,7 +733,7 @@
 			"file": "/Users/derryl/repos/Blog/app/about/index.html",
 			"settings":
 			{
-				"buffer_size": 729,
+				"buffer_size": 716,
 				"line_ending": "Unix"
 			}
 		},
@@ -749,7 +749,7 @@
 			"file": "/Users/derryl/repos/Blog/app/_includes/metadata.html",
 			"settings":
 			{
-				"buffer_size": 2089,
+				"buffer_size": 2181,
 				"line_ending": "Unix"
 			}
 		},
@@ -1077,6 +1077,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"liveReloadPort",
 			"app",
 			"blockquote",
 			"ul",
@@ -1203,8 +1204,7 @@
 			"@desktop",
 			"@phone",
 			"<h1>FOOBAR</h1>\n<p>When in the course of human events, it becomes necessary to include a Django template...</p>",
-			"\"",
-			"flexrow"
+			"\""
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1350,7 +1350,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -1374,7 +1374,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 109.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1391,8 +1391,8 @@
 						"selection":
 						[
 							[
-								238,
-								244
+								520,
+								520
 							]
 						],
 						"settings":
@@ -1400,7 +1400,7 @@
 							"syntax": "Packages/LESS/LESS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 546.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1466,15 +1466,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/type-mixins.less",
 					"settings":
 					{
-						"buffer_size": 1203,
+						"buffer_size": 1305,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								183,
-								183
+								709,
+								709
 							]
 						],
 						"settings":
@@ -1484,7 +1484,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 356.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1522,15 +1522,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/type.less",
 					"settings":
 					{
-						"buffer_size": 1481,
+						"buffer_size": 1462,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								699,
-								695
+								673,
+								673
 							]
 						],
 						"settings":
@@ -1540,7 +1540,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 661.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1730,15 +1730,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/code.less",
 					"settings":
 					{
-						"buffer_size": 1681,
+						"buffer_size": 1703,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								58,
-								58
+								48,
+								48
 							]
 						],
 						"settings":
@@ -1776,7 +1776,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 160.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1786,15 +1786,15 @@
 					"file": "/Users/derryl/repos/Blog/app/styles/less/page-posts.less",
 					"settings":
 					{
-						"buffer_size": 862,
+						"buffer_size": 846,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								859,
-								859
+								410,
+								410
 							]
 						],
 						"settings":
@@ -1804,7 +1804,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 285.0,
+						"translation.y": 213.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1896,7 +1896,7 @@
 			]
 		},
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -1911,8 +1911,8 @@
 						"selection":
 						[
 							[
-								3622,
-								3622
+								606,
+								620
 							]
 						],
 						"settings":
@@ -1922,7 +1922,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 925.0,
+						"translation.y": 1431.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1939,8 +1939,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								298,
+								298
 							]
 						],
 						"settings":
@@ -1950,7 +1950,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 229.0,
+						"translation.y": 119.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1996,7 +1996,7 @@
 						[
 							[
 								201,
-								36
+								74
 							]
 						],
 						"settings":
@@ -2151,15 +2151,15 @@
 					"file": "/Users/derryl/repos/Blog/app/about/index.html",
 					"settings":
 					{
-						"buffer_size": 729,
+						"buffer_size": 716,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								374,
-								374
+								518,
+								518
 							]
 						],
 						"settings":
@@ -2208,15 +2208,15 @@
 					"file": "/Users/derryl/repos/Blog/app/_includes/metadata.html",
 					"settings":
 					{
-						"buffer_size": 2089,
+						"buffer_size": 2181,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								410,
-								410
+								667,
+								325
 							]
 						],
 						"settings":
@@ -2322,8 +2322,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								119,
+								119
 							]
 						],
 						"settings":
@@ -2457,7 +2457,7 @@
 		"rows":
 		[
 			0.0,
-			0.459530660445,
+			0.214120043258,
 			1.0
 		]
 	},
@@ -2477,7 +2477,7 @@
 		"selected_items":
 		[
 			[
-				"lo",
+				"ja",
 				"/Users/derryl/repos/Blog/app/_includes/load_javascript.html"
 			],
 			[
@@ -2485,16 +2485,64 @@
 				"/Users/derryl/repos/Blog/Gruntfile.js"
 			],
 			[
+				"ra",
+				"/Users/derryl/repos/Blog/Rakefile"
+			],
+			[
+				"ab",
+				"/Users/derryl/repos/Blog/app/about/index.html"
+			],
+			[
 				"",
+				"/Users/derryl/repos/Blog/app/styles/less/variables.less"
+			],
+			[
+				"st",
+				"/Users/derryl/repos/Blog/app/styles/less/style.less"
+			],
+			[
+				"ma",
+				"/Users/derryl/repos/Blog/app/styles/master.less"
+			],
+			[
+				"var",
+				"/Users/derryl/repos/Blog/app/styles/less/variables.less"
+			],
+			[
+				"typ",
+				"/Users/derryl/repos/Blog/app/styles/less/type-mixins.less"
+			],
+			[
+				"met",
+				"/Users/derryl/repos/Blog/app/_includes/metadata.html"
+			],
+			[
+				"mix",
+				"/Users/derryl/repos/Blog/app/styles/less/type-mixins.less"
+			],
+			[
+				"type",
+				"/Users/derryl/repos/Blog/app/styles/less/page-posts.less"
+			],
+			[
+				"pa",
+				"/Users/derryl/repos/Blog/app/styles/less/page-posts.less"
+			],
+			[
+				"co",
+				"/Users/derryl/repos/Blog/app/styles/less/code.less"
+			],
+			[
+				"po",
+				"/Users/derryl/repos/Blog/app/styles/less/page-posts.less"
+			],
+			[
+				"lo",
 				"/Users/derryl/repos/Blog/app/_includes/load_javascript.html"
 			],
 			[
 				"coff",
 				"/Users/derryl/repos/Blog/app/coffee/main.coffee"
-			],
-			[
-				"typ",
-				"/Users/derryl/repos/Blog/app/styles/less/type-mixins.less"
 			],
 			[
 				"fon",
@@ -2503,10 +2551,6 @@
 			[
 				"gr",
 				"/Users/derryl/repos/Blog/Gruntfile.js"
-			],
-			[
-				"ma",
-				"/Users/derryl/repos/Blog/app/coffee/main.coffee"
 			],
 			[
 				"cof",
@@ -2529,10 +2573,6 @@
 				"/Users/derryl/repos/Blog/app/styles/less/responsive.less"
 			],
 			[
-				"st",
-				"/Users/derryl/repos/Blog/app/styles/less/style.less"
-			],
-			[
 				"res",
 				"/Users/derryl/repos/Blog/app/styles/less/responsive.less"
 			],
@@ -2549,16 +2589,8 @@
 				"/Users/derryl/repos/Blog/app/_includes/load_javascript.html"
 			],
 			[
-				"ab",
-				"/Users/derryl/repos/Blog/app/styles/less/page-about.less"
-			],
-			[
 				"la",
 				"/Users/derryl/repos/Blog/app/styles/less/layout.less"
-			],
-			[
-				"met",
-				"/Users/derryl/repos/Blog/app/_includes/metadata.html"
 			],
 			[
 				"def",
@@ -2575,10 +2607,6 @@
 			[
 				"lay",
 				"/Users/derryl/repos/Blog/app/styles/less/layout.less"
-			],
-			[
-				"po",
-				"/Users/derryl/repos/Blog/app/_layouts/post.html"
 			],
 			[
 				"sub",
@@ -2609,16 +2637,8 @@
 				"/Users/derryl/repos/Blog/app/styles/less/footer.less"
 			],
 			[
-				"type",
-				"/Users/derryl/repos/Blog/app/styles/less/type-mixins.less"
-			],
-			[
 				"read",
 				"/Users/derryl/repos/Blog/app/reading/index.html"
-			],
-			[
-				"var",
-				"/Users/derryl/repos/Blog/app/styles/less/variables.less"
 			],
 			[
 				"nav",
@@ -2735,10 +2755,6 @@
 			[
 				"home",
 				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/homepage.less"
-			],
-			[
-				"co",
-				"/Users/derryl/repos/TestFlight/styleguide/lib/themes/flightpath_public/colors.less"
 			],
 			[
 				"pi",
@@ -2961,10 +2977,6 @@
 				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/css-tables.less"
 			],
 			[
-				"pa",
-				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/page-elements.less"
-			],
-			[
 				"s",
 				"/Users/derryl/repos/TestFlight/styleguide/docs/flightpath/static_analytics.html"
 			],
@@ -2975,18 +2987,6 @@
 			[
 				"m",
 				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/master.less"
-			],
-			[
-				"li",
-				"/Users/derryl/repos/TestFlight/styleguide/flightpath/coffee/linechart.coffee"
-			],
-			[
-				"mod",
-				"/Users/derryl/repos/TestFlight/styleguide/flightpath/lib/fp_core/modals.less"
-			],
-			[
-				"ne",
-				"/Users/derryl/repos/TestFlight/web/templates/flightpath/new_analytics.html"
 			]
 		],
 		"width": 0.0
