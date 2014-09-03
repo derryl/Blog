@@ -1,6 +1,6 @@
 body {
     font-size: 100%;
-    line-height: 1.62em;
+    line-height: @lineHeight;
     .sans-serif;
     //-webkit-font-smoothing: antialiased;
 }
@@ -16,7 +16,7 @@ h1, h2, h3, h4 {
 article { h1, h2, h3, h4 { .align-center; } }
 
 h1 { 
-    font-size: 2.6em;
+    font-size: 2.em;
     line-height: 1.2em;
     margin-bottom: 1.2em;
     &.supersize {
@@ -41,8 +41,8 @@ p, article ul {
     .sans-serif;
     text-align:  left;
     font-size:   1.2em;
-    line-height: 1.64em;
-    margin-bottom: 1.5em;
+    line-height: @lineHeight;
+    margin-bottom: @lineHeight;
     &.larger {
         font-size: 2.4em;
         font-weight: 500;
