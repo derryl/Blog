@@ -289,7 +289,7 @@ module.exports = function(grunt) {
     grunt.registerTask('build:prod', [
         'build:dev',
         'clean:dist',
-        'replace:cloudfront_links',
+        // 'replace:cloudfront_links',
         'copy:dist',
         'htmlcompressor',
         'uglify',
