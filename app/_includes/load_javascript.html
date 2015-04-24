@@ -1,4 +1,17 @@
 <script type="text/javascript">
+
+    var uaString = ( navigator.userAgent || navigator.vendor || window.opera )
+        .toLowerCase().replace(/\s+/g,'');
+        
+    var isMobile = /android|blackberry|iphone|ipad|ipod|opera/i.test(uaString);
+    
+    if (isMobile === true) {
+        document.body.setAttribute( 'class',
+            document.body.getAttribute('class') + ' mobile'
+        );
+    }
+
+
     window.onload = function() {
 
         var app = document.createElement("script");
@@ -16,6 +29,7 @@
         })();
 
     };
+    
     (function() {
         if (!/localhost|0.0.0.0/i.test(location.host)) {
             var _gaq = _gaq || [];

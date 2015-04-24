@@ -15,16 +15,19 @@
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    .clearfix;
+    .flexbox(row);
 
     li { 
-        .pull-left;
+        .flex();
         display: block;
         height: 74px;
         margin: @lineHeight/2 0 0;
 
-        width: 28%; 
-        &.narrow { width: 16%; }
+        // width: 28%; 
+        &.narrow { 
+            // width: 16%; 
+            .flex(0 0 16%);
+        }
     }
 
     a {
@@ -40,7 +43,8 @@
         .transition(~"color .75s ease-in-out");
 
         &.top-nav--home {
-            padding-top: @lineHeight/3;
+            padding-top: 0;
+            padding-top: @lineHeight/4;
             padding-bottom: 0;
         }
     }
@@ -66,6 +70,9 @@
     }
 }
 
+.mobile .top-nav--links a {
+    color: @textColor;
+}
 
 
 .top-nav--home {
@@ -96,7 +103,7 @@
         .size(80px, 74px);
         margin-top: 2em;
         @media @small { .square(5em); margin-top: 1em; }
-        @media @tiny  { .square(4em); margin-top: 0; }
+        @media @tiny  { .square(4.5em); margin-top: 0; }
     }
 }
 

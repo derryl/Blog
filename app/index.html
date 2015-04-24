@@ -3,7 +3,7 @@ layout: default
 title: Drryl
 ---
 
-{% for post in site.posts reversed %}
+<!-- {% for post in site.posts reversed %}
     {% assign found_post = 'false' %}
     {% if post.category == 'editorial' %}
         {% if found_post == 'false' %}
@@ -12,7 +12,7 @@ title: Drryl
             {% assign content = fp.content %}
         {% endif %}
     {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 <article class="post{{ if fp.custom_class }} {{ fp.custom_class }}{{ endif }}">
 

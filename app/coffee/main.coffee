@@ -1,2 +1,5 @@
+
+log = console.log.bind console
+
 $ ->
-    console.log 'foo'
+    # 
