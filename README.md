@@ -18,6 +18,7 @@
 
 	git clone git@github.com:derryl/Blog.git
     npm install
+    gem install jekyll
     grunt
 
 All source files are in `/app`. They're compiled to `/public` whenever changes are made while `grunt` is running. For distribution, files are copied to `/dist` and further optimizations/compression are performed.
